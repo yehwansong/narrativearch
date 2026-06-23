@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Future School Virtual Tour</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/lux5zhk.css">
+        <style>
+@font-face {
+  font-family: sans;
+  src: url(HelveticaNeueMedium.woff);
+}
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+            body{
+    margin: 0;
+    overflow: hidden;
+        background: linear-gradient(to bottom, #7282cc, #bbfff2, #83e8ff, #44a0ff, #6b6b6b);
+        background: white;
+}
+*{
+  font-family: sans;
+font-weight: 500}
+           
+.menu,.close{
+    position: fixed;
+    z-index: 100000000;
+    width: 10vh;
+    height: 10vh;
+    background-image: url(img/menu-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 1vh;
+    top: 1vh;
+    box-shadow: 0vh 0vh 2vh #ffff03 inset;
+    border-radius: 15vh 15vh 15vh 15vh;
+    text-align: right;
+    padding-right: 1.5vh;
+    box-sizing: border-box;
+    line-height: 31vh;
+    font-size: 2vh;
+    color: black;
+    font-weight: 100;
+}
+.close{
+    background-image: url(img/close-01.png);
+}
+iframe {
+    right: 0vh;
+    /* bottom: 0px; */
+    top: auto;
+    left: auto;
+    z-index: 10000;
+    width: 55vh;
+    position: fixed;
+    height: 85vh;
+    /* left: 2.5vh; */
+    transition: transform 1s ease-in-out;
+    bottom: 0vh;
+    transform: scale(0.75);
+    transform-origin: right bottom;
+    height: 133.33vh;
+    /* top: 2.5vh; */
+    /* box-shadow: 0vh 0vh 2vh black; */
+    box-sizing: border-box;
+}
+.cursor_popup{
+    position: fixed;
+    z-index: 100000;
+    min-width: 8.5vh;
+    height: auto;
+    background-color: #313131;
+    pointer-events: none;
+    font-size: 1.8vh;
+    color: white;
+    line-height: 1;
+    padding: .5vh;
+    display: none;
+    text-transform: capitalize;
+}
+.popup{    position: fixed;
+    z-index: 1000000000000000;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50vw;
+    top: 50vh;
+    width: 30vh;
+    opacity: 0.75;
+}
+.popup img{
+    width: 100%;
+}
+.right{
+    width: 70vh;
+    height: 100%;
+    position: fixed;
+    z-index: 10000000;
+    background: #f1f7ff;
+    right: 0;
+    padding: 2vh;
+    box-sizing: border-box;
+    color: black;
+    padding-right: 1%;
+    box-shadow: 0vh 0vh 1vh black;
+    transform: translateX(100%);
+}
+.right span{
+    font-size: 1.5vh;
+    line-height: 1.4;
+}
+.des {
+    display: none;
+    position: fixed;
+    background: #ff2400;
+    float: left;
+    z-index: 1000000;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 0.25vh;
+    width: 85vh;
+    line-height: 1.3;
+    left: auto;
+    font-size: 3vh;
+    right: 1vh;
+    bottom: 39vh;
+    transform: scale(0.45);
+    transform-origin: right bottom;
+    letter-spacing: -0.05vh;
+        white-space: pre-wrap;
+}
+
+        </style>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQL4zwIJb9ipU7dw4Oop5IXDFfx6jXAklWqIBwgW7If-Ng_G63eUwZJ7Y7yDxUJXIQWib-Vl1EuA_pV/pubhtml?widget=true&amp;headers=false"></iframe>
+        <div class="des">
+                This is a virtual school space and a trial of building a community space that can be constructed, modified, and reconstructed collaboratively by a group of people. This website uses a Google spreadsheet as a database (then converts the Google spreadsheet into 3D space). Whenever a user enters, this brings up the real-time data from the spreadsheet and reconstructs the environment. If anyone who has access to the spreadsheet changes the information in it, the modification is directly applied to this virtual environment. This system represents the school, which is a collaborative community space built by people in the community.<br>
+                <br>
+                It’s currently on it’s default mode, where the buildings (which represents list of programs and exhibitions) are all just lined up. This arrangement will be transformed as the programs and exhibitions progress, creating new relationships and shapes, during the biennial season(school season).
+                <br>
+                Artwork by Yehwan Song, commissioned by 17th International Architecture Exhibition La Biennale di Venezia Korean Pavilion
+        </div>
+		<script src="js/jquery.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+		<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback"></script>
+
+        <script
+		  src="js/jquery.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/sole/tween.js/master/src/Tween.js"></script>
+        <!-- <script type="text/javascript" src='js/threex.dynamictexture.js'></script> -->
+		<script src="js/EventsControls.js"></script>
+        <script type="text/javascript" src="js/infospace_ap.js"></script>
+        
+	</head>
+
+	<body>
+        <!-- <div class="popup">
+            <img src="img/kb-02.png">
+        </div> -->
+		<!-- <div class="menu"></div> -->
+		<div class="cursor_popup"></div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                // $('iframe').prependTo( $('.des') );
+                var des_open = false
+                console.log($('.menu'))
+                $('.menu').click(function(){
+                    console.log('ldksfj')
+                    if(!des_open){
+                        des_open = true
+                        $('.des').addClass('des_open')
+                    }else{
+                        des_open = false
+                        $('.des').removeClass('des_open')
+                    }
+                })
+            })
+        </script>
+	      <!-- <button type="button" id="rtLeft"><- rotate</button>
+	      <button type="button" id="mvForward">forward</button>
+	      <button type="button" id="rtRight">rotate -></button> -->
+	</body>
+</html>

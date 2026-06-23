@@ -1,0 +1,380 @@
+body {
+    /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/143273/conformity.png);
+    */
+     color: #fff;
+     margin: 0px;
+     overflow: hidden;
+}
+ @font-face {
+     font-family: "GTPressuraMono";
+     src: url("GT-Pressura-Mono-Regular.woff") format("woff"),url("GT-Pressura-Mono-Regular.woff2") format("woff2") 
+}
+ *{
+     margin: 0;
+     padding: 0;
+     position: relative;
+     box-sizing: border-box;
+     font-family: "GTPressuraMono", monospace;
+     font-size: 2.2vh;
+}
+ html, body{
+     height: 100%;
+     background-color: white 
+}
+.black_bg{
+     background: linear-gradient(#ffffff 60%, #000000 70%);
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     left: 0;
+     top: 0;
+     z-index: -1;
+     transition: 2s
+}
+ body{
+     position: fixed;
+     background-color:#f3faff;
+    ;
+    /*background-image: url(bg.jpeg);
+    */
+    /*filter: invert(1);
+    */
+    /*background-image: url(img/bg.png);
+    */
+    /*background-size: cover;
+    */
+     background-size: 100vw;
+     background-repeat: no-repeat;
+     background-position: center top;
+     width: 100vw;
+}
+ body.top .black_bg{
+ 	opacity: 0
+}
+ button{
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+ canvas{
+     transform: scaleX(-1);
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+ .button{
+     position: absolute;
+     z-index: 10000;
+     left: 0;
+     top: 0;
+     width: 10vh;
+     padding: 0.25vh;
+     cursor: pointer;
+     box-shadow: 0vh 0vh 2vh 2px white;
+}
+ .button:hover{
+     filter: invert(1) 
+}
+ .button_top{
+     left: 0.5vh;
+     top: 0.5vh;
+}
+ body>img.button_side{
+     left: 0.5vh;
+     top: 10.5vh;
+}
+ .button_details{
+     left: 0.5vh;
+     top: 20.5vh;
+}
+ .button_about{
+     left: 0.5vh !important;
+     top: 30.5vh !important;
+}
+ .button:hover{
+     text-decoration: underline;
+}
+ .popup{
+     display: none;
+     overflow: hidden;
+     position: absolute;
+     z-index: 1000;
+     background: white;
+     width: calc(100vw - 10vh);
+     height: calc(100% - 10vh);
+     left: 5vh;
+     color: black;
+     z-index: 100000;
+     top: 5vh;
+     box-shadow: 0vh 0vh 0vh 10vh #0000007a;
+}
+ .mobile .popup{
+     width: calc(100vw - 5vh);
+     left: 2.5vh;
+}
+    .mobile .scrollnumber_wrapper {
+	    left: calc(50vw - 2.5vh);
+	}
+ .popup_inner{
+     width: 800%;
+     position: absolute;
+     height: 100%;
+     transition: 0.5s;
+}
+ .popup_single{
+     height: 100%;
+     float: left;
+     width: 12.5%;
+     font-size: 2.2vh;
+     line-height: 1.24;
+     overflow-y: scroll;
+     overflow-x: hidden;
+}
+ .popup_about{
+     overflow-y: scroll;
+}
+ .bf{
+     font-size: 5vh;
+     line-height: 1;
+     text-align: center;
+     padding-bottom: 1vh;
+     padding-top: 0.7vh;
+}
+ .sf{
+    font-size: 1.8vh
+}
+ .italic{
+     font-style: italic;
+}
+ .img_wrapper{
+     position: relative;
+     width: 100%;
+     height: 60vh;
+     background-color: black;
+}
+ .button_arrow_r{
+     position: absolute;
+     right: 5vh;
+     left: auto;
+     top: 45vh;
+     transform: translateX(50%);
+     box-shadow: 0vh 0vh 1vh white;
+     z-index: 10000000;
+     display: none;
+}
+ .button_arrow_l{
+     position: absolute;
+     left: 5vh;
+     top: 45vh;
+     transform: translateX(-50%) scaleX(-1);
+     box-shadow: 0vh 0vh 1vh white;
+     z-index: 10000000;
+     display: none;
+}
+ .button_close{
+     pointer-events: auto !important;
+     position: absolute;
+     right: 5vh;
+     left: auto !important;
+     top: 5vh !important;
+     display: none;
+     box-shadow: 0vh 0vh 1vh white;
+     transform: translate(40%, -40%);
+     z-index: 10000000;
+}
+.about_title{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.about_logo{
+	width: 100%;
+	height: 3.5vh;
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.about_logo_1{
+    height: 9.25vh;
+	background-image: url(img/logo_3.png);
+}
+.about_logo_2{
+	background-image: url(img/logo_4.png);
+}
+.about_logo_3{
+	background-image: url(img/logo_5.png);
+}
+.sm_button{
+     width: 5vh;
+     box-shadow: none;
+     border: 1px solid black;
+     background-color: white;
+     border-radius: 50%;
+     width: 3.5vh;
+     box-shadow: none;
+     border: 1.5px solid black 
+}
+ .img_wrapper{
+     display: flex;
+     overflow: hidden;
+}
+ .popup_single_inner{
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 100%;
+     width: 100%;
+     transition: 0.5s 
+}
+ .scrollnumber_wrapper{
+     left: calc(50vw - 5vh);
+     position: absolute;
+     display: flex;
+     transform: translateX(-50%);
+     z-index: 1000;
+     bottom: 0;
+}
+ .selected_scrollnumber{
+     filter: invert(1);
+}
+ .scrollnumber{
+     background: white;
+     width: 3.25vh;
+     height: 3.25vh;
+     text-align: center;
+     border-radius: 50%;
+     border: 1px solid black;
+     cursor: pointer;
+     font-size: 2.25vh;
+     line-height: 1.3;
+}
+ .scrollnumber:hover{
+     filter: invert(1) 
+}
+ .mobile .sm_button{
+     width: 4.5vh;
+}
+ .mobile .scrollnumber{
+     width: 4.25vh;
+     height: 4.25vh;
+     font-size: 3vh;
+}
+ .mobile .button_arrow_r{
+     right: 2.5vh;
+}
+ .mobile .button_close{
+     right: 2.5vh;
+}
+ .mobile .img_wrapper{
+     height: calc(100vw - 5vh);
+}
+ .mobile .button_arrow_l{
+     left: 2.5vh;
+}
+ .logo_1{
+     position: absolute;
+     z-index: 1000;
+     left: 0.75vh;
+     bottom: 0.75vh;
+     width: 40vh;
+     transition: filter 2s
+}
+ .logo_2{
+     position: absolute;
+     z-index: 1000;
+     right: 0.75vh;
+     bottom: 0.75vh;
+     width: 35vh;
+     transition: filter 2s
+}
+ .logo_3{
+     
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+    width: 5vh;
+    transition: filter 2s;
+}
+.logo_3_wrap{
+	position: absolute;
+    left: 0.75vh;
+    bottom: 0.75vh;
+	}
+ .logo_4{
+     
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+    width: 10vh;
+    transition: filter 2s;
+}
+.logo_4_wrap{
+	position: absolute;
+    left: 30.9vh;
+    bottom: 0.75vh;
+	}
+ .logo_5{
+     
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+    width: 19.2vh;
+    transition: filter 2s;
+}
+.logo_5_wrap{
+	position: absolute;
+    left: 8.75vh;
+    bottom: 0.75vh;
+	}
+.top .logo_1,
+.top .logo_2,
+.top .logo_2,
+.top .logo_2,
+.top .logo_2{
+	filter: invert(1);
+	}
+ iframe{
+     height: 100%;
+     width: 100%;
+}
+ .about .button_top, .about .button_side, .about .button_details, .about .button_about, .details .button_top, .details .button_side, .details .button_details, .details .button_about{
+     pointer-events: none;
+}
+ audio{
+     left: 50%;
+     position: absolute;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+ @media (max-aspect-ratio: 825/1000) {
+     .logo_2 {
+         width: 40vw;
+    }
+     .logo_1 {
+         width: 50vw;
+    }
+	 .logo_3{
+	    width: 6.06vw;
+	}
+	 .logo_4{
+	    width: 12.12vw;
+	}
+	 .logo_5{
+	    width: 23.27vw;
+	}
+	 .logo_3_wrap{
+	    left: 0.75vh;
+	}
+	 .logo_4_wrap{
+	    left: calc(0.75vh + 37.45vw);
+	}
+	 .logo_5_wrap{
+	    left: calc(0.75vh + 10.60vw);
+	}
+
+}

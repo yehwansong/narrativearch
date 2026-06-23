@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://orgd.org/2018/ -->
+<html style="margin-top: 0px; visibility: visible;" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>:root{--litepicker-container-months-color-bg: #fff;--litepicker-container-months-box-shadow-color: #ddd;--litepicker-footer-color-bg: #fafafa;--litepicker-footer-box-shadow-color: #ddd;--litepicker-tooltip-color-bg: #fff;--litepicker-month-header-color: #333;--litepicker-button-prev-month-color: #9e9e9e;--litepicker-button-next-month-color: #9e9e9e;--litepicker-button-prev-month-color-hover: #2196f3;--litepicker-button-next-month-color-hover: #2196f3;--litepicker-month-width: calc(var(--litepicker-day-width) * 7);--litepicker-month-weekday-color: #9e9e9e;--litepicker-month-week-number-color: #9e9e9e;--litepicker-day-width: 38px;--litepicker-day-color: #333;--litepicker-day-color-hover: #2196f3;--litepicker-is-today-color: #f44336;--litepicker-is-in-range-color: #bbdefb;--litepicker-is-locked-color: #9e9e9e;--litepicker-is-start-color: #fff;--litepicker-is-start-color-bg: #2196f3;--litepicker-is-end-color: #fff;--litepicker-is-end-color-bg: #2196f3;--litepicker-button-cancel-color: #fff;--litepicker-button-cancel-color-bg: #9e9e9e;--litepicker-button-apply-color: #fff;--litepicker-button-apply-color-bg: #2196f3;--litepicker-button-reset-color: #909090;--litepicker-button-reset-color-hover: #2196f3;--litepicker-highlighted-day-color: #333;--litepicker-highlighted-day-color-bg: #ffeb3b}.show-week-numbers{--litepicker-month-width: calc(var(--litepicker-day-width) * 8)}.litepicker{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:0.8em;display:none}.litepicker button{border:none;background:none}.litepicker .container__main{display:-webkit-box;display:-ms-flexbox;display:flex}.litepicker .container__months{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:var(--litepicker-container-months-color-bg);border-radius:5px;-webkit-box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);width:calc(var(--litepicker-month-width) + 10px);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months.columns-2{width:calc((var(--litepicker-month-width) * 2) + 20px)}.litepicker .container__months.columns-3{width:calc((var(--litepicker-month-width) * 3) + 30px)}.litepicker .container__months.columns-4{width:calc((var(--litepicker-month-width) * 4) + 40px)}.litepicker .container__months.split-view .month-item-header .button-previous-month,.litepicker .container__months.split-view .month-item-header .button-next-month{visibility:visible}.litepicker .container__months .month-item{padding:5px;width:var(--litepicker-month-width);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months .month-item-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-weight:500;padding:10px 5px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--litepicker-month-header-color)}.litepicker .container__months .month-item-header div{-webkit-box-flex:1;-ms-flex:1;flex:1}.litepicker .container__months .month-item-header div>.month-item-name{margin-right:5px}.litepicker .container__months .month-item-header div>.month-item-year{padding:0}.litepicker .container__months .month-item-header .reset-button{color:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button>svg{fill:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button *{pointer-events:none}.litepicker .container__months .month-item-header .reset-button:hover{color:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .reset-button:hover>svg{fill:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .button-previous-month,.litepicker .container__months .month-item-header .button-next-month{visibility:hidden;text-decoration:none;padding:3px 5px;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__months .month-item-header .button-previous-month *,.litepicker .container__months .month-item-header .button-next-month *{pointer-events:none}.litepicker .container__months .month-item-header .button-previous-month{color:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month>svg,.litepicker .container__months .month-item-header .button-previous-month>img{fill:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month:hover{color:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-previous-month:hover>svg{fill:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month{color:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month>svg,.litepicker .container__months .month-item-header .button-next-month>img{fill:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month:hover{color:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month:hover>svg{fill:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-weekdays-row{display:-webkit-box;display:-ms-flexbox;display:flex;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;color:var(--litepicker-month-weekday-color)}.litepicker .container__months .month-item-weekdays-row>div{padding:5px 0;font-size:85%;-webkit-box-flex:1;-ms-flex:1;flex:1;width:var(--litepicker-day-width);text-align:center}.litepicker .container__months .month-item:first-child .button-previous-month{visibility:visible}.litepicker .container__months .month-item:last-child .button-next-month{visibility:visible}.litepicker .container__months .month-item.no-previous-month .button-previous-month{visibility:hidden}.litepicker .container__months .month-item.no-next-month .button-next-month{visibility:hidden}.litepicker .container__days{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:center;-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__days>div,.litepicker .container__days>a{padding:5px 0;width:var(--litepicker-day-width)}.litepicker .container__days .day-item{color:var(--litepicker-day-color);text-align:center;text-decoration:none;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__days .day-item:hover{color:var(--litepicker-day-color-hover);-webkit-box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover);box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover)}.litepicker .container__days .day-item.is-today{color:var(--litepicker-is-today-color)}.litepicker .container__days .day-item.is-locked{color:var(--litepicker-is-locked-color)}.litepicker .container__days .day-item.is-locked:hover{color:var(--litepicker-is-locked-color);-webkit-box-shadow:none;box-shadow:none;cursor:default}.litepicker .container__days .day-item.is-in-range{background-color:var(--litepicker-is-in-range-color);border-radius:0}.litepicker .container__days .day-item.is-start-date{color:var(--litepicker-is-start-color);background-color:var(--litepicker-is-start-color-bg);border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-flipped{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date{color:var(--litepicker-is-end-color);background-color:var(--litepicker-is-end-color-bg);border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date.is-flipped{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-end-date{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-highlighted{color:var(--litepicker-highlighted-day-color);background-color:var(--litepicker-highlighted-day-color-bg)}.litepicker .container__days .week-number{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:var(--litepicker-month-week-number-color);font-size:85%}.litepicker .container__footer{text-align:right;padding:10px 5px;margin:0 5px;background-color:var(--litepicker-footer-color-bg);-webkit-box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);border-bottom-left-radius:5px;border-bottom-right-radius:5px}.litepicker .container__footer .preview-date-range{margin-right:10px;font-size:90%}.litepicker .container__footer .button-cancel{background-color:var(--litepicker-button-cancel-color-bg);color:var(--litepicker-button-cancel-color);border:0;padding:3px 7px 4px;border-radius:3px}.litepicker .container__footer .button-cancel *{pointer-events:none}.litepicker .container__footer .button-apply{background-color:var(--litepicker-button-apply-color-bg);color:var(--litepicker-button-apply-color);border:0;padding:3px 7px 4px;border-radius:3px;margin-left:10px;margin-right:10px}.litepicker .container__footer .button-apply:disabled{opacity:0.7}.litepicker .container__footer .button-apply *{pointer-events:none}.litepicker .container__tooltip{position:absolute;margin-top:-4px;padding:4px 8px;border-radius:4px;background-color:var(--litepicker-tooltip-color-bg);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;font-size:11px;pointer-events:none;visibility:hidden}.litepicker .container__tooltip:before{position:absolute;bottom:-5px;left:calc(50% - 5px);border-top:5px solid rgba(0,0,0,0.12);border-right:5px solid transparent;border-left:5px solid transparent;content:""}.litepicker .container__tooltip:after{position:absolute;bottom:-4px;left:calc(50% - 4px);border-top:4px solid var(--litepicker-tooltip-color-bg);border-right:4px solid transparent;border-left:4px solid transparent;content:""}
+</style>
+        <script type="text/javascript">
+            var timerStart = Date.now();
+        </script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>OPEN RECENT GRAPHIC DESIGN* 2018/ – 오픈 리센트 그래픽 디자인 2018</title>
+<link rel="dns-prefetch" href="http://code.jquery.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="OPEN RECENT GRAPHIC DESIGN* 2018/ » Feed" href="http://orgd.org/2018/feed/">
+<link rel="alternate" type="application/rss+xml" title="OPEN RECENT GRAPHIC DESIGN* 2018/ » Comments Feed" href="http://orgd.org/2018/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/orgd.org\/2018\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.26"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="openrecent-style-css" href="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-ui-css" href="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/jquery-ui.css" type="text/css" media="all">
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/jquery.js"></script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"http:\/\/orgd.org\/2018\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/recent_script.js"></script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/html2canvas.js"></script>
+<link rel="https://api.w.org/" href="http://orgd.org/2018/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://orgd.org/2018/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://orgd.org/2018/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.26">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		</head>
+
+<body class="home blog hfeed">
+
+	<div id="content" class="site-content">
+
+
+	<div class="line line1">
+<svg preserveAspectRatio="none" width="100%" height="100%">
+	<style type="text/css">
+		.st0{fill:none;stroke:url(#SVGID_1_);stroke-miterlimit:10;}
+	</style>
+	<lineargradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0%" x2="100%" y2="100%">
+		<stop offset="0" style="stop-color:#FFFFFF"></stop>
+		<stop offset="0.5" style="stop-color:#FFFFFF;stop-opacity:1"></stop>
+		<stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"></stop>
+	</lineargradient>
+	<line class="st0" x1="0" y1="0%" x2="100%" y2="100%" style="stroke-width:2"></line>
+</svg>
+
+
+	</div>
+	<div id="bottomshadow"></div>
+	<div id="topshadow"></div>
+<div class="image_top" id="image_top1" style="display: none;"></div>
+<div class="image_top" id="image_top2" style="display: none;"></div>
+<div class="image_top" id="image_top3"></div>
+<div class="recent-area" style="top: 124.903px; left: 1003.94px;"><div id="recent15" class="recent" style="background-position: 0px 0px; top: -62.4375px; right: 1168.62px; display: block; z-index: 18;">
+			<div id="recent_img15" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time5" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div><div id="recent16" class="recent" style="background-position: 0px 0px; top: 0px; right: 1085.33px; z-index: 17;">
+			<div id="recent_img16" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time5" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent0" class="recent" style="background-position: 0px 0px; top: 62.4516px; right: 999.692px;">
+			<div id="recent_img0" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time0" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent1" class="recent" style="background-position: 0px 0px; top: 124.903px; right: 916.385px;">
+			<div id="recent_img1" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time1" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent2" class="recent" style="background-position: 0px 0px; top: 187.355px; right: 833.077px;">
+			<div id="recent_img2" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time2" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent3" class="recent" style="background-position: 0px 0px; top: 249.806px; right: 749.769px;">
+			<div id="recent_img3" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time3" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent4" class="recent" style="background-position: 0px 0px; top: 312.258px; right: 666.462px;">
+			<div id="recent_img4" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time4" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent5" class="recent" style="background-position: 0px 0px; top: 374.71px; right: 583.154px;">
+			<div id="recent_img5" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time5" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent6" class="recent" style="background-position: 0px 0px; top: 437.161px; right: 499.846px;">
+			<div id="recent_img6" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time6" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent7" class="recent" style="background-position: 0px 0px; top: 499.613px; right: 416.538px;">
+			<div id="recent_img7" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time1" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent8" class="recent" style="background-position: 0px 0px; top: 562.065px; right: 333.231px;">
+			<div id="recent_img8" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time1" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent9" class="recent" style="background-position: 0px 0px; top: 624.516px; right: 249.923px;">
+			<div id="recent_img9" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time1" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent10" class="recent" style="background-position: 0px 0px; top: 649.497px; right: 216.6px;">
+			<div id="recent_img10" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time1" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent11" class="recent" style="background-position: 0px 0px; top: 674.477px; right: 183.277px;">
+			<div id="recent_img11" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time1" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent12" class="recent" style="background-position: 0px 0px; top: 699.458px; right: 149.954px;">
+			<div id="recent_img12" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time2" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent13" class="recent" style="background-position: 0px 0px; top: 724.439px; right: 116.631px;">
+			<div id="recent_img13" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time3" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		<div id="recent14" class="recent" style="background-position: 0px 0px; top: 749.419px; right: 83.3077px; display: none;">
+			<div id="recent_img14" class="recent_img" style="background-position: 0px 0px;"></div>
+			<div id="archived_time4" class="archived_time" style="background-position: 0px 0px;"></div>
+		</div>
+		
+		
+</div>
+
+
+
+<div id="background_whole"></div>
+<div class="content-area">
+<div id="index">
+<h1 class="site-title"><a href="http://orgd.org/2018/" id="site-title-link" rel="home">
+					xxxx xxxxxx xxxxxxx xxxxxx<span> 2018<span> </span></span></a>
+<div class="site-subtitle">가가 가가가 가가가 가가가 0000</div></h1>
+<div id="indexwhite"></div>
+<div class="column" id="column14wrap">
+<div class="column" id="column1">
+<h2 id="cat_orgd"><span style="font-weight: 400;">xxxx 0000 </span></h2>
+<h2><a href="http://orgd.org/9/"><span style="font-weight: 400;">가가 가가</span></a></h2>
+<h2 id="cat_test"><span style="font-weight: 400;">가가가</span></h2>
+<h2 id="cat_task"><span style="font-weight: 400;">가가가</span></h2>
+<h2 id="cat_program"><span style="font-weight: 400;">가가가가</span></h2>
+</div>
+</div>
+<div class="column" id="column2">
+<h2><a href="https://www.instagram.com/orgd.2018/">xxxxxxxxx</a></h2>
+<h2><a href="https://twitter.com/@orgd2018">xxxxxxx</a></h2>
+</div>
+<div class="column" id="column3">
+<h2>가가</h2>
+<p>9.13-30<br/>
+가-가 00xx-0xx<br/>
+가-가 00xx-0xx</p>
+<h2>가가</h2>
+<p>가가00<br/>
+가가가 가가가 가가가 00가</p>
+<p><a href="https://map.naver.com/local/siteview.nhn?code=1211411932"><img alt="" class="alignnone size-medium wp-image-33" height="300" sizes="(max-width: 300px) 100vw, 300px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/Screen-Shot-2018-09-11-at-06.41.09-사본-300x300.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/Screen-Shot-2018-09-11-at-06.41.09-사본-300x300.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/Screen-Shot-2018-09-11-at-06.41.09-사본-150x150.jpg 150w, http://orgd.org/2018/wp-content/uploads/2018/09/Screen-Shot-2018-09-11-at-06.41.09-사본.jpg 400w" width="300"/></a><a href="https://map.naver.com/local/siteview.nhn?code=1211411932"><img alt="" class="alignnone size-medium wp-image-34" height="300" sizes="(max-width: 300px) 100vw, 300px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/Screen-Shot-2018-09-11-at-06.40.17-사본-300x300.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/Screen-Shot-2018-09-11-at-06.40.17-사본-300x300.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/Screen-Shot-2018-09-11-at-06.40.17-사본-150x150.jpg 150w, http://orgd.org/2018/wp-content/uploads/2018/09/Screen-Shot-2018-09-11-at-06.40.17-사본.jpg 400w" width="300"/></a></p>
+</div>
+</div>
+ <!-- &lt;xxx xxx="xxxxx.xxx" xx="xxxxxxxx"&gt;  -->
+<div id="posts" style="margin-top: 484px;">
+ <!-- &lt;xxx xx="xxxxxxxxx"&gt;&lt;xxx xx="xxxxxxxxx_xxx"&gt;&lt;/xxx&gt;&lt;/xxx&gt;  -->
+<article class="post-236 post type-post status-publish format-standard has-post-thumbnail hentry category-program" id="post-236">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/236/" tabindex="-1">
+<img alt="4회 기획자 토크: 김동신, 배민기, 양지은" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2000" sizes="(max-width: 1410px) 100vw, 1410px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/program4-3.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/10/program4-3.jpg 1410w, http://orgd.org/2018/wp-content/uploads/2018/10/program4-3-212x300.jpg 212w, http://orgd.org/2018/wp-content/uploads/2018/10/program4-3-768x1089.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/10/program4-3-722x1024.jpg 722w" width="1410"/> </a>
+<header class="entry-header">
+<p>가가가가</p>
+<h2 class="entry-title">0가 가가가 가가: 가가가, 가가가, 가가가</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article>
+<article class="post-232 post type-post status-publish format-standard has-post-thumbnail hentry category-program" id="post-232">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/232/" tabindex="-1">
+<img alt="3회 쉬운 과제, 어려운 과제, 좋은 과제: 최슬기" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2000" sizes="(max-width: 1410px) 100vw, 1410px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/program3-3.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/10/program3-3.jpg 1410w, http://orgd.org/2018/wp-content/uploads/2018/10/program3-3-212x300.jpg 212w, http://orgd.org/2018/wp-content/uploads/2018/10/program3-3-768x1089.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/10/program3-3-722x1024.jpg 722w" width="1410"/> </a>
+<header class="entry-header">
+<p>가가가가</p>
+<h2 class="entry-title">0가 가가 가가, 가가가 가가, 가가 가가: 가가가</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-123 post type-post status-publish format-standard has-post-thumbnail hentry category-task" id="post-123">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/123/" tabindex="-1">
+<img alt="오혜진(Hezin O)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2000" sizes="(max-width: 2000px) 100vw, 2000px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/썸네일_오혜진.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_오혜진.jpg 2000w, http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_오혜진-150x150.jpg 150w, http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_오혜진-300x300.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_오혜진-768x768.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_오혜진-1024x1024.jpg 1024w" width="2000"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxx x)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-120 post type-post status-publish format-standard has-post-thumbnail hentry category-task" id="post-120">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/120/" tabindex="-1">
+<img alt="성정은(Jeongeun Seong)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2667" sizes="(max-width: 2000px) 100vw, 2000px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/썸네일_성정은-1.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_성정은-1.jpg 2000w, http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_성정은-1-225x300.jpg 225w, http://orgd.org/2018/wp-content/uploads/2018/09/썸네일_성정은-1-768x1024.jpg 768w" width="2000"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxxxxx xxxxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-131 post type-post status-publish format-standard has-post-thumbnail hentry category-program" id="post-131">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/131/" tabindex="-1">
+<img alt="2회 오늘의 패셔너블함: 박세진" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2000" sizes="(max-width: 1410px) 100vw, 1410px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/program2-1.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/program2-1.jpg 1410w, http://orgd.org/2018/wp-content/uploads/2018/09/program2-1-212x300.jpg 212w, http://orgd.org/2018/wp-content/uploads/2018/09/program2-1-768x1089.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/program2-1-722x1024.jpg 722w" width="1410"/> </a>
+<header class="entry-header">
+<p>가가가가</p>
+<h2 class="entry-title">0가 가가가 가가가가가: 가가가</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-126 post type-post status-publish format-standard has-post-thumbnail hentry category-program" id="post-126">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/126/" tabindex="-1">
+<img alt="1회 오픈 리센트 디자이너스: 송예환, 양민영, 석윤이" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2000" sizes="(max-width: 1410px) 100vw, 1410px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/program1-1.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/program1-1.jpg 1410w, http://orgd.org/2018/wp-content/uploads/2018/09/program1-1-212x300.jpg 212w, http://orgd.org/2018/wp-content/uploads/2018/09/program1-1-768x1089.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/program1-1-722x1024.jpg 722w" width="1410"/> </a>
+<header class="entry-header">
+<p>가가가가</p>
+<h2 class="entry-title">0가 가가 가가가 가가가가가: 가가가, 가가가, 가가가</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-118 post type-post status-publish format-standard has-post-thumbnail hentry category-task" id="post-118">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/118/" tabindex="-1">
+<img alt="박지현(Jihyun Park)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1240" sizes="(max-width: 2000px) 100vw, 2000px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/박지현_썸네일_진짜.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/박지현_썸네일_진짜.jpg 2000w, http://orgd.org/2018/wp-content/uploads/2018/09/박지현_썸네일_진짜-300x186.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/박지현_썸네일_진짜-768x476.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/박지현_썸네일_진짜-1024x635.jpg 1024w" width="2000"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxxx xxxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-114 post type-post status-publish format-standard has-post-thumbnail hentry category-task" id="post-114">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/114/" tabindex="-1">
+<img alt="김동규(Donggyu Kim)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1250" sizes="(max-width: 2000px) 100vw, 2000px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/김동규_썸네일.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/김동규_썸네일.jpg 2000w, http://orgd.org/2018/wp-content/uploads/2018/09/김동규_썸네일-300x188.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/김동규_썸네일-768x480.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/김동규_썸네일-1024x640.jpg 1024w" width="2000"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxxxx xxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> 
+<article class="post-99 post type-post status-publish format-standard has-post-thumbnail hentry category-test" id="post-99">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/99/" tabindex="-1">
+<img alt="워크스(WORKS)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="3078" sizes="(max-width: 2000px) 100vw, 2000px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/WORKS_thumbnail_1.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/WORKS_thumbnail_1.jpg 2000w, http://orgd.org/2018/wp-content/uploads/2018/09/WORKS_thumbnail_1-195x300.jpg 195w, http://orgd.org/2018/wp-content/uploads/2018/09/WORKS_thumbnail_1-768x1182.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/WORKS_thumbnail_1-665x1024.jpg 665w" width="2000"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-94 post type-post status-publish format-standard has-post-thumbnail hentry category-test" id="post-94">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/94/" tabindex="-1">
+<img alt="배민기(Minkee Bae)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="2000" sizes="(max-width: 2000px) 100vw, 2000px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/bmk1-compressor.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/bmk1-compressor.jpg 2000w, http://orgd.org/2018/wp-content/uploads/2018/09/bmk1-compressor-150x150.jpg 150w, http://orgd.org/2018/wp-content/uploads/2018/09/bmk1-compressor-300x300.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/bmk1-compressor-768x768.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/bmk1-compressor-1024x1024.jpg 1024w" width="2000"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxxx xxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-90 post type-post status-publish format-standard has-post-thumbnail hentry category-test" id="post-90">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/90/" tabindex="-1">
+<img alt="김동신(Dongshin Kim)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1653" sizes="(max-width: 3353px) 100vw, 3353px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/스크린샷-2018-09-16-오후-9.31.13.png" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/스크린샷-2018-09-16-오후-9.31.13.png 3353w, http://orgd.org/2018/wp-content/uploads/2018/09/스크린샷-2018-09-16-오후-9.31.13-300x148.png 300w, http://orgd.org/2018/wp-content/uploads/2018/09/스크린샷-2018-09-16-오후-9.31.13-768x379.png 768w, http://orgd.org/2018/wp-content/uploads/2018/09/스크린샷-2018-09-16-오후-9.31.13-1024x505.png 1024w" width="3353"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxxxxx xxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-60 post type-post status-publish format-standard has-post-thumbnail hentry category-test" id="post-60">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/60/" tabindex="-1">
+<img alt="양지은(Jieun Yang)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="850" sizes="(max-width: 1275px) 100vw, 1275px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/saturn.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/saturn.jpg 1275w, http://orgd.org/2018/wp-content/uploads/2018/09/saturn-300x200.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/saturn-768x512.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/saturn-1024x683.jpg 1024w" width="1275"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxx xxxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-17 post type-post status-publish format-standard has-post-thumbnail hentry category-test" id="post-17">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/17/" tabindex="-1">
+<img alt="송예환(Yehwan Song)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="917" sizes="(max-width: 1500px) 100vw, 1500px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/yehwan1-1.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/yehwan1-1.jpg 1500w, http://orgd.org/2018/wp-content/uploads/2018/09/yehwan1-1-300x183.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/yehwan1-1-768x470.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/yehwan1-1-1024x626.jpg 1024w" width="1500"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxxx xxxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-14 post type-post status-publish format-standard has-post-thumbnail hentry category-test" id="post-14">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/14/" tabindex="-1">
+<img alt="신재호(Jaeho Shin)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1682" sizes="(max-width: 1188px) 100vw, 1188px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/jaeho-2.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/jaeho-2.jpg 1188w, http://orgd.org/2018/wp-content/uploads/2018/09/jaeho-2-212x300.jpg 212w, http://orgd.org/2018/wp-content/uploads/2018/09/jaeho-2-768x1087.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/jaeho-2-723x1024.jpg 723w" width="1188"/> </a>
+<header class="entry-header">
+<p>가가가</p>
+<h2 class="entry-title">가가가(xxxxx xxxx)</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-11 post type-post status-publish format-standard has-post-thumbnail hentry category-orgd-2018" id="post-11">
+<a aria-hidden="true" class="post-thumbnail" href="http://orgd.org/2018/11/" tabindex="-1">
+<img alt="오픈 리센트 그래픽 디자인 2018" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1279" sizes="(max-width: 1500px) 100vw, 1500px" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/openrecent-1.jpg" srcset="http://orgd.org/2018/wp-content/uploads/2018/09/openrecent-1.jpg 1500w, http://orgd.org/2018/wp-content/uploads/2018/09/openrecent-1-300x256.jpg 300w, http://orgd.org/2018/wp-content/uploads/2018/09/openrecent-1-768x655.jpg 768w, http://orgd.org/2018/wp-content/uploads/2018/09/openrecent-1-1024x873.jpg 1024w" width="1500"/> </a>
+<header class="entry-header">
+<p>xxxx 0000</p>
+<h2 class="entry-title">가가 가가가 가가가 가가가 0000</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-00 
+<article class="post-9 post type-post status-publish format-standard hentry category-introduction" id="post-9" style="display: none;">
+<header class="entry-header">
+<p>가가 가가</p>
+<h2 class="entry-title">xxxxx</h2>
+</header>
+<div class="entry-content"></div> .xxxxx-xxxxxxx 
+</article> #xxxx-0 
+</div>
+<div class="back">
+		xxxx
+	</div>
+</div>
+
+
+
+
+	</div><!-- #content -->
+
+<!-- 	<footer id="colophon" class="site-footer">
+		<div class="site-info">
+			<a href="https://wordpress.org/">
+				Proudly powered by WordPress			</a>
+			<span class="sep"> | </span>
+				Theme: openrecent by <a href="http://underscores.me/">Underscores.me</a>.		</div><!-- .site-info -->
+	<!-- #colophon --> 
+<!-- #page -->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var nlf = {"ajaxurl":"http:\/\/orgd.org\/2018\/wp-admin\/admin-ajax.php","plugin_url":"http:\/\/orgd.org\/2018\/wp-content\/plugins\/uploadingdownloading-non-latin-filename\/","upload_baseurl":"http:\/\/orgd.org\/2018\/wp-content\/uploads\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/non-latin.js"></script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/navigation.js"></script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/core.min.js"></script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/datepicker.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/wp-embed.min.js"></script>
+
+
+
+<div id="twa-injected-pixel" twa="true" style="width: 1px; height: 1px; position: absolute; top: 0px; right: 1px; background-color: transparent;"></div><iframe class="html2canvas-container" width="1920" height="968" scrolling="no" data-html2canvas-ignore="true" style="visibility: hidden; position: fixed; left: -10000px; top: 0px; border: 0px;" src="./OPEN RECENT GRAPHIC DESIGN_ 2018_ – 오픈 리센트 그래픽 디자인 2018_files/saved_resource.html"></iframe><iframe class="html2canvas-container" width="1920" height="968" scrolling="no" data-html2canvas-ignore="true" style="visibility: hidden; position: fixed; left: -10000px; top: 0px; border: 0px;"></iframe></body></html>

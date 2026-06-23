@@ -1,0 +1,49 @@
+@font-face {
+   font-family: Union-Bold;
+   src: url(font/Union-Bold.woff);
+}
+@font-face {
+   font-family: Union-Regular;
+   src: url(font/Union-Regular.woff);
+}
+* {
+   font-family: Union-Regular;
+}
+@font-face {
+   font-family: hb;
+   src: url('font/HelveticaNeue-Bold.woff')
+}
+
+@font-face {
+   font-family: hh;
+   src: url('font/HelveticaNeue-Heavy.woff')
+}
+
+@font-face {
+   font-family: hhi;
+   src: url('font/HelveticaNeue-HeavyItalic.woff')
+}
+
+@font-face {
+   font-family: hbi;
+   src: url('font/HelveticaNeue-BoldItalic.woff')
+}
+@font-face {
+   font-family: tri;
+   src: url('font/TimesNewRomanPS-ItalicMT.woff')
+}
+@font-face {
+   font-family: tr;
+   src: url('font/TimesNewRomanPSMT.woff')
+}
+@font-face {
+   font-family: fut;
+   src: url('font/Futura-ExtraBold.woff')
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+*{
+    letter-spacing: -0.04vh;
+    font-family: hb;
+    font-size: 1.4vh;
+    line-height: 1.3;
+}

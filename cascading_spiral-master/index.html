@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no" />
+<title>Cascading Spiral</title>
+<meta property="og:url" content="https://cascadingspiral.com/" />
+<meta property="og:title" content="Cascading Spiral - Istanbul Biennale 2022" />
+<meta property="og:description" content="Designer and web developer Yehwan Song challenges conventional understandings of web design with her experimental sites and interactive graphic interfaces, resisting the dogma of usability and the relentless standardisation of networked environments. For the 17th Istanbul Biennial, she was invited to iterate her vision of an ‘internet of villages’, sub-networks based on affinity and shared interest rather than the prospect of universal dissemination. The resulting site reflects the biennial’s composting process as it happens, weaving together its six thematic threads to reveal unanticipated resonances and make new conversations possible.
+Song’s radial design, inspired by spiders’ webs and meteorological charts, mimics a living organism, regenerating, re-forming and growing constantly. It generates new cross-sections of the biennial from day to day, inviting viewers into a continuous conversation with contributors. The site’s spiral layers started to unfurl in April 2022 at https://cascadingspiral.com/, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues.
+ " />
+<meta property="og:image" content="og.png" />
+  <link rel="stylesheet" href="main.css">
+<style type="text/css">
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0
+	}
+    .mobile *{
+        font-size :4.2vw !important;
+    }
+	canvas { 
+		display: block;
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+	body,html{
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		position: absolute;
+        background-color: black;
+        position:sticky
+	}
+	html{
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	.fake_scroll{
+		width: 100%;
+		height: 1000vh;
+		left: 0;
+		top: 0;
+		position: relative;
+		z-index: 10000
+	}
+	.view_hover{
+    position: fixed;
+    z-index: 10000;
+    border: 0.5vh solid #1cffce;}
+    .view_hover:hover{
+    	border: 0.5vh solid #d4ff00
+    }
+    .credit_wrapper{
+    position: fixed;
+    z-index: 100000000;
+    left: 2vh;
+    top: 2vh;
+    width: calc(100% - 4vh);
+    height: 96vh;
+    color: #ffa0c2;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    display: none;
+    padding-right: 18vh;
+}
+.mobile .credit_wrapper{
+    padding-right: 0vh;
+    }
+.credit_wrapper>div{    
+	min-height: 5vh;
+    /*display: flex;*/
+    border-bottom: 1px solid white;
+    /*flex-direction: row;*/
+    align-content: center;
+    justify-content: flex-start;
+        padding-bottom: 2vh;
+}
+.credit_wrapper>div>*{
+    /* float: left; */
+    /* display: block; */
+    border-right: 1px solid white;
+    padding-left: 0.25vh;
+    /* max-width: 50%; */
+    /* min-width: 7.5%; */
+    background-repeat: no-repeat;
+    padding-top: 0.25vh;
+
+}
+.credit_wrapper>div>img{
+    height: 5vh;
+    display: block;
+}
+.artist_credit{
+	color: #75a7da;
+    padding-left: 4.5vh !important
+}
+.credit_title{
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+    font-size: 1.9vh;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;}
+.content_credit{
+    font-family: ts;
+    color: black;
+    font-size: 1.6vh;
+display: block;}
+.title_source_credit{
+    background-color: white;
+    height: 1vh;
+    overflow: hidden;
+    min-height: 2.5vh !important;}
+.credit_credit{    max-width: 30%;}
+.title_credit{
+    width: 33.3%;
+    font-size: 1.6vh !important;
+    text-transform: uppercase;
+}
+.source_btn,.scrolldown,.calendar_btn,.ctr_btn,.zoom_btn,.qr_btn{
+    text-transform: uppercase;
+    background-color: white;
+    padding: 0.25vh;
+    border-radius: 0.25vh;
+    text-decoration: underline;
+font-size: 1.75vh !important;
+padding-left: 0.5vh;
+padding-right: 0.5vh;
+    margin-right: 0.5vh;
+cursor: pointer;
+white-space: nowrap;
+}
+.source_btn:hover,
+.calendar_btn:hover,
+.ctr_btn:hover,
+.zoom_btn:hover,
+.qr_btn:hover{
+	background-color: #d4ff00
+}
+.scrolldown{
+    position: fixed;
+}
+.source_btn,.calendar_btn,.ctr_btn,.zoom_btn{
+    position: relative;
+}
+.btn_wrap{
+    position: fixed;
+    z-index: 10000;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.ctr_wrap, .qr{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.ctr, .qr{
+    width: 10vh;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.25vh;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.ctr{
+    position: relative;
+    
+}
+.ctr:hover{
+    filter: invert(1)
+}
+.ctr_r{
+    background-image: url('img/ctr_r.png')
+}
+.ctr_l{
+    background-image: url('img/ctr_l.png')
+}
+.qr{
+    background-image: url('img/qr.png')
+}
+.scrolldown{
+	pointer-events: none;
+	text-decoration: none;
+}
+.close{
+    position: fixed;
+    right: 0.5vh;
+    top: 0.5vh;
+    background: white;
+    border-radius: 50%;
+    padding: 0.25vh;
+    width: 3.5vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+    .close:hover{
+    	filter: invert();
+    }
+    .gradient{
+    z-index: 100000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /*background: linear-gradient(180deg, transparent 28500px, #02071c);*/
+}
+.fake_scroll_wrapper{
+	position: fixed;
+left: 0;
+top: auto;
+/*z-index: 10000000000;*/
+width: 100%;
+height: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+pointer-events: all;
+bottom: 0;
+}
+.date{
+    width: 14.2857%;
+    position: relative;
+    float: left;
+    border-bottom: 0.1vh solid #1cffce
+}
+.date:hover{
+    background-color: #ffa0c2
+}
+.calendar{
+    position: fixed;
+    z-index: 10000;
+    width: 20vw;  
+    background-color: white;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media (max-aspect-ratio: 5/6) {
+    .source_btn,.calendar_btn,.ctr_btn,.zoom_btn,.qr_btn{
+     display: none
+    }
+}
+
+input{
+    width: 1.4vh;
+    height: 1.4vh;}
+</style>
+
+<script src="js/three.js"></script>
+<script src="js/OrbitControls.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<div class="scrolldown">scroll</div>
+<div class="fake_scroll_wrapper">
+	<div class="fake_scroll">
+	<canvas id="canvas"></canvas>
+	<div class="gradient"></div>
+</div>
+</div>
+<div class="credit_wrapper">
+    <div class="credit_title">Source</div>
+	<img class="close" src="img/close.png"></div>
+</div>
+</head>
+<body>
+</body>
+</html>
+
+

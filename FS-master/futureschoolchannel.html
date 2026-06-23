@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<script src="https://use.fontawesome.com/8af6c1b3d2.js"></script>
+
+<!-- font -->
+<link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://use.typekit.net/lux5zhk.css">
+<link rel="stylesheet" href="style.css">
+<style type="text/css">
+  *{margin:0;padding:0;}
+  iframe{
+    width: 100vw;
+    height: 100vh
+  }
+</style>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('iframe').attr('src','https://www.youtube.com/embed/'+window.location.hash.split('#')[1])
+    })
+</script>
+<meta charset="utf-8">
+</head>
+<body>
+  <iframe frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>

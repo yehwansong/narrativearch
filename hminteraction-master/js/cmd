@@ -1,0 +1,89 @@
+for i in $(seq -w 1 8)
+do 
+	varb=${i#0};
+	convert img_r_7.png -distort SRT $(($varb*23+90)) -gravity Center -crop 10%\x100% img_1/rot_${i#0}.png
+ 	convert img_r_7/rot_${i#0}.png -crop 0%x2% +repage +adjoin img_7/img_${i#0}_%002d.png
+done
+
+
+
+do 
+	convert img_r_7.png -crop 0%x8% +repage +adjoin img_7/img_%002d.png
+done
+
+
+
+for i in $(seq -w 1 8)
+do 
+	varb=${i#0};
+	convert img_r_7.png -distort SRT $(($varb*23+90)) -gravity Center -crop 10%\x100% img_1/rot_${i#0}.png
+ 	convert img_r_7/rot_${i#0}.png -crop 0%x2% +repage +adjoin img_7/img_${i#0}_%002d.png
+ 	convert img_r_7/rot_${i#0}.png -crop 0%x2% +repage +adjoin img_7/img_${i#0}_%002d.png
+done
+
+
+
+for i in $(seq -w 1 13)
+do 
+	varb=${i#0};
+ convert img_rs_${varb}.jpg -geometry x26\
+ 		 -crop 5x2 \
+          -set filename:tile "%[fx:page.x/5+1]_%[fx:page.y/2+1]" \
+          +repage +adjoin img_${varb}_tile/img_t_%[filename:tile].jpg
+
+done
+
+ 
+
+for i in $(seq -w 1 12)
+do 
+	varb=${i#0};
+ 	convert img_rsc_${varb}.jpg -geometry x1300\
+ 		 -crop 400x100 \
+ 		 -repage +200\
+          -set filename:tile "%[fx:page.x/400+1]_%[fx:page.y/100+1]" \
+          +repage +adjoin img_${varb}_tile/img_t_%[filename:tile].jpg
+done
+
+ 
+
+for i in $(seq -w 1 13)
+do 
+	varb=${i#0};
+ 	convert img_rs_${varb}.jpg -geometry x26 img_rsp_${varb}.jpg
+done
+
+
+for i in $(seq -w 1 13)
+do 
+	varb=${i#0};
+		convert ig_${varb}.jpg -gravity center -crop 1600x1300+0+0 +repage img_rsc_${varb}.jpg
+done
+
+magick mogrify -resize 1300x1300 -quality 100 -path ../  *.jpg
+ mogrify -resize 256x256 *.jpg
+for i in $(seq -w 1 12)
+do 
+	varb=${i#0};
+ 	convert img_rs_${varb}.jpg -repage +200\
+          -set filename:tile "%[fx:page.x/400+1]_%[fx:page.y/100+1]" \
+          +repage +adjoin img_${varb}_tile/img_t_%[filename:tile].png
+
+done
+
+ 	convert stinedeja_1.png -geometry x1300 img_rs_13.jpg
+ 	convert img_rs_13.jpg -gravity center -crop 3200x1300+0+0 +repage img_rsc_13.jpg
+
+ 	convert img_rsc_13.jpg -geometry x1300\
+ 		 -crop 400x100 \
+ 		 -repage +200\
+          -set filename:tile "%[fx:page.x/400+1]_%[fx:page.y/100+1]" \
+          +repage +adjoin img_13_tile/img_t_%[filename:tile].jpg
+
+ convert img_rsc_13.jpg -geometry x650\
+ 		 -crop 20x50 \
+          -set filename:tile "%[fx:page.x/400+1]_%[fx:page.y/100+1]" \
+          +repage +adjoin img_13_tile/img_%[filename:tile].jpg
+
+
+mogrify -format jpg *.png

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Future School Virtual Tour</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+            body{
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to top, #00d0ff, #cecece);
+    font-family: 'Courier Prime', monospace;
+
+}
+           
+.menu{
+    position: fixed;
+    z-index: 10000;
+    width: 8vh;
+    height: 31vh;
+    background: linear-gradient( 
+0deg
+ , #e40000, #ffd506c7);
+    right: 1vh;
+    top: 1vh;
+    box-shadow: 0vh 0vh 2vh #ffff03 inset;
+    border-radius: 15vh 15vh 15vh 15vh;
+
+
+
+    background: black;
+    box-shadow: none;
+    right: 1vh;
+    bottom: 1vh;
+    width: 30vh;
+    border-radius: 0;
+    top: auto;
+    background-image: url(img/og.jpg);
+    background-size: auto 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+iframe{
+    /* transform: translateX(100%); */
+    z-index: 10000;
+    width: 30vㅗ;
+    position: fixed;
+    height: 30vh;
+    right: 0;
+    transition: transform 1s ease-in-out;
+    bottom: 0;
+}
+.cursor_popup{
+    position: fixed;
+    z-index: 100000;
+    width: 18vh;
+    height: auto;
+    background-color: black;
+    pointer-events: none;
+    font-size: 1.7vh;
+    color: white;
+    text-align: center;
+    line-height: 1;
+    padding: .5vh;
+}
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
+        </style>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQmBXww8SFhk5-F5jCIQRiZ6dsUALt4Ihr06OcyygPx3U526qFOjVUF11gJzvgOr1Oag32ZKMnw3_HF/pubhtml?widget=true&amp;headers=false"></iframe>
+		<script src="js/jquery.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+		<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback"></script>
+
+        <script
+		  src="js/jquery.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/sole/tween.js/master/src/Tween.js"></script>
+        <!-- <script type="text/javascript" src='js/threex.dynamictexture.js'></script> -->
+		<script src="js/EventsControls.js"></script>
+        <script type="text/javascript" src="js/infospace_install_new.js"></script>
+        
+	</head>
+
+	<body>
+		<a href="https://futureschool.kr/en/BEYOND-THE-INEVITABLE:-SEOUL-AND-GENOVA" target="_blank"><div class="menu"></div></a>
+		<div class="cursor_popup"></div>
+	      <!-- <button type="button" id="rtLeft"><- rotate</button>
+	      <button type="button" id="mvForward">forward</button>
+	      <button type="button" id="rtRight">rotate -></button> -->
+	</body>
+</html>

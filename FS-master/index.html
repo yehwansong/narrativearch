@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<head>
+<script src="https://use.fontawesome.com/8af6c1b3d2.js"></script>
+<!-- font -->
+<link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet" type="text/css" />
+<link href="https://use.typekit.net/lux5zhk.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript">
+    var futureschoolchannel_link
+    var current_program_link
+get_data_array()
+function get_data_array() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            data_array = JSON.parse(this.responseText).values
+            futureschoolchannel_link = data_array[0][1].split('embed/')[1]
+            current_program_link = data_array[1][1]
+        }
+    };
+    xhttp.open("GET", "https://sheets.googleapis.com/v4/spreadsheets/1bjMDhpQWeZFpLx8Z0cQDZ6HTbVQY_rWYOIa2EbtAEyI/values/Link?key=AIzaSyAmcp44cOi9-6XM4EqjCjIQLbj_D__1YPE");
+    xhttp.send();
+
+}
+$(document).ready(function(){
+    change_link()
+    function change_link(){
+        if(futureschoolchannel_link && current_program_link){
+            $('.extra_button_2').attr('href','futureschoolchannel.html#'+futureschoolchannel_link)
+            $('.extra_button_3').attr('href',current_program_link)
+        }else{
+            setTimeout(function(){
+                change_link()
+            },1000)
+        }
+    }
+})
+</script>
+<meta charset="utf-8"/>
+<style>
+*{margin:0;
+padding:0;}
+.content_wrapper{
+    background-image: url(poster.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.out{
+    opacity: 0.01 !important
+}
+#img_1,
+#img_2,
+#img_3,
+#img_4,
+#img_5{
+    position: fixed;
+    opacity: 0
+}
+</style>
+</head>
+<body>
+<!-- <a class="fsss_button">TRANSBORDER<br><br>FutureSchool<br>Summer Studio </a> -->
+<script type="text/javascript">
+
+    $(document).ready(function() {
+    });
+    </script>
+<img id="img_1"/>
+<img id="img_2"/>
+<img id="img_3"/>
+<img id="img_4"/>
+<img id="img_5"/>
+<div class="wrapper">
+<div class="content content_1">
+<span class="english">
+            Dummy text<br/><div class="verspace"></div>
+            Dummy text<br/><div class="verspace"></div>
+            Dummy text<br/><div class="verspace"></div>
+            Dummy text
+            </span>
+<span class="korean">
+                Dummy text 
+            </span>
+</div>
+<div class="content content_2">
+<span class="english">
+<span>
+<span class="inner_title">Dummy text</span>
+<span class="inner_con">
+                    Dummy text
+                </span>
+</span>
+<span>
+<span class="inner_title">Dummy text</span>
+<span class="inner_con">
+                    Dummy text
+                </span>
+</span>
+<span>
+<span class="inner_title">Dummy text</span>
+<span class="inner_con">
+                    Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text
+                </span>
+</span>
+</span>
+<span class="korean">
+<span>
+<span class="inner_title">Dummy text</span>
+<span class="inner_con">
+                    Dummy text
+                </span>
+</span>
+<span>
+<span class="inner_title">Dummy text</span>
+<span class="inner_con">
+                    Dummy text
+                </span>
+</span>
+<span>
+<span class="inner_title">Dummy text</span>
+<span class="inner_con">
+                    Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text
+                </span>
+</span>
+</span>
+</div>
+<a class="content content_3" href="http://fsvb2020.kr/program" target="_blank">
+<span class="english">
+Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text
+            </span>
+<span class="korean">
+Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text<br/>Dummy text</span>
+</a>
+<div class="content content_4">
+<span class="english">Dummy text</span>
+<span class="korean">Dummy text</span>
+</div>
+</div>
+<div class="cover_wrapper">
+<div class="logo_wrap">
+<div class="logo_title title logo_title_1">Dummy text</div>
+<div class="logo_title title logo_title_2">Dummy text</div>
+<div class="logo logo_1"></div>
+<div class="logo logo_2"></div>
+<div class="logo logo_3"></div>
+<div class="logo logo_4"></div>
+</div>
+<a class="button extra_button extra_button_0" href="fsss.html">Dummy text</a>
+<a class="button extra_button extra_button_1" href="codeofconduct.html">Dummy text</a>
+<a class="button extra_button extra_button_2" href="futureschoolchannel.html">Dummy text</a>
+<a class="button extra_button extra_button_3" href="">Dummy text</a>
+<div class="logo_v"></div>
+<div class="cover cover_1"></div>
+<div class="cover cover_2"></div>
+<div class="cover cover_3"></div>
+<div class="cover cover_4"></div>
+<div class="cover cover_5"></div>
+</div>
+<div class="titlebar">
+<span class="maintitle">Dummy text</span>
+<span class="button menubutton button_1">Dummy text</span>
+<span class="button menubutton button_2">Dummy text</span>
+<span class="button menubutton button_3">Dummy text</span>
+<span class="button menubutton button_4">Dummy text</span>
+<span class="menubutton_mobile">Dummy text</span>
+<span class="button button_5 korean_b">Dummy text</span>
+<span class="button button_5 english_b">Dummy text</span>
+</div>
+<script type="text/javascript">
+        var h = window.innerHeight
+        var w = window.innerWidth
+        var contentout = false
+        $('.maintitle').click(function(){
+                $('.wrapper').css({'height':0})
+                $('.titlebar').removeClass('selected_titlebar')
+                $('.selected_button').removeClass('selected_button')
+                $('.selected_content').removeClass('selected_content')
+        })
+        $('.button.menubutton').click(function(){
+            var sel_num = $(this).attr('class').split('button_')[1].split(' ')[0]
+            console.log($('.button_'+sel_num))
+            if($('.button_'+sel_num).hasClass('selected_button')){
+                console.log('1')
+                $('.wrapper').css({'height':0})
+                $('.titlebar').removeClass('selected_titlebar')
+                $('.selected_button').removeClass('selected_button')
+                $('.selected_content').removeClass('selected_content')
+            }else{
+                console.log('2')
+                $('.titlebar').addClass('selected_titlebar')
+                $('.selected_button').removeClass('selected_button')
+                $('.selected_content').removeClass('selected_content')
+                $('.button_'+sel_num).addClass('selected_button')
+                $('.content_'+sel_num).addClass('selected_content')
+                if(w/h>1){
+                $('.wrapper').css({'height': $('.selected_content').outerHeight() + h*0.0625 + h*0.03})
+            
+                }else{
+                $('.wrapper').css({'height': $('.selected_content').outerHeight() + w*0.32 + h*0.03})
+                }
+            }
+
+        })
+        $('document').ready(function(){
+                var imagecounter = 0
+if(w/h>1){
+    $('#img_1').attr('src', 'img/1.png').on('load', function() {
+   $(this).remove()
+    $('#img_2').attr('src', 'img/2.png').on('load', function() {
+   $(this).remove()
+    $('#img_3').attr('src', 'img/3.png').on('load', function() {
+   $(this).remove()
+    $('#img_4').attr('src', 'img/4.png').on('load', function() {
+   $(this).remove()
+    $('#img_5').attr('src', 'img/5.png').on('load', function() {
+   $(this).remove()
+       $('.cover_1').css('background-image', 'url(img/1.png)');
+       $('.cover_2').css('background-image', 'url(img/2.png)');
+       $('.cover_3').css('background-image', 'url(img/3.png)');
+       $('.cover_4').css('background-image', 'url(img/4.png)');
+       $('.cover_5').css('background-image', 'url(img/5.png)');
+       repeatOften(5)
+    }); 
+    });
+    });
+    });
+    });
+}else{
+    $('#img_1').attr('src', 'img/m_1.png').on('load', function() {
+   $(this).remove()
+    $('#img_2').attr('src', 'img/m_2.png').on('load', function() {
+   $(this).remove()
+    $('#img_3').attr('src', 'img/m_3.png').on('load', function() {
+   $(this).remove()
+    $('#img_4').attr('src', 'img/m_4.png').on('load', function() {
+   $(this).remove()
+   $('#img_5').remove()
+        $('.cover_1').css('background-image', 'url(img/m_1.png)');
+        $('.cover_2').css('background-image', 'url(img/m_2.png)');
+        $('.cover_3').css('background-image', 'url(img/m_3.png)');
+        $('.cover_4').css('background-image', 'url(img/m_4.png)');
+        repeatOften(4)
+    }); 
+    });
+    });
+    });
+}
+
+
+
+            var mobile_menu = false
+            $('.menubutton_mobile').click(function(){
+                if(!mobile_menu){
+                $('.wrapper').css({'height': w*0.32})
+                    console.log('heyy')
+                mobile_menu = true
+                    $('.titlebar span.button').fadeIn()
+                    $('.titlebar span.button.english_b').fadeOut()
+                    $('.titlebar a.button').fadeIn()
+                    $('.titlebar').addClass('titlebar_selected_mobile')
+                }else{
+                mobile_menu = false
+                    $('.titlebar span.button').fadeOut()
+                    $('.titlebar a.button').fadeOut()
+                    $('.titlebar').removeClass('titlebar_selected_mobile')
+
+                $('.wrapper').css({'height':0})
+                $('.titlebar').removeClass('selected_titlebar')
+                $('.selected_button').removeClass('selected_button')
+                $('.selected_content').removeClass('selected_content')
+                $('.wrapper').css({'height': 0})
+                }
+            })
+            var counter = 0
+            var rotatetime 
+            function repeatOften(rotatetime) {
+                if($('.selected_content').length==0){
+                    counter++
+                    $('.cover').css({'opacity':0})
+                    $('.cover_'+((counter%rotatetime)+1)).css({'opacity':1})
+                    $('.cover_'+((counter%rotatetime)+1)).css({'opacity':1})
+                }
+                    setTimeout(function(){repeatOften(rotatetime)},700)
+            }
+            var counter_button = 0
+            var rotatetime 
+            repeatOften_button()
+            function repeatOften_button() {
+                    counter_button++
+                if(counter_button%2 == 1){
+                    $('.extra_button.extra_button_3').addClass('extra_button_activated')
+                    $('.extra_button.extra_button_3').css({'transition': 'none'})
+                }else{
+                    $('.extra_button.extra_button_3').removeClass('extra_button_activated')
+                    $('.extra_button.extra_button_3').css({'transition': 'none'})
+                }
+                    setTimeout(function(){repeatOften_button()},500)
+            }
+            $('.korean_b').click(function(){
+                $('.korean').show()
+                $('.english').hide()
+                $('.english_b').show()
+                $('.korean_b').hide()
+                $('.wrapper').css({'height':0})
+                $('.titlebar').removeClass('selected_titlebar')
+                $('.selected_button').removeClass('selected_button')
+                $('.selected_content').removeClass('selected_content')
+            })
+            $('.english_b').click(function(){
+                $('.english').show()
+                $('.korean').hide()
+                $('.korean_b').show()
+                $('.english_b').hide()
+                $('.wrapper').css({'height':0})
+                $('.titlebar').removeClass('selected_titlebar')
+                $('.selected_button').removeClass('selected_button')
+                $('.selected_content').removeClass('selected_content')
+            })
+        })
+    </script>
+</body>

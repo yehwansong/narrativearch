@@ -1,0 +1,1497 @@
+  <!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ISIA/WT Summerschool Archive</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+    <![endif]-->
+
+     <link rel="stylesheet" href="leaflet.css" crossorigin=""/>
+     <link rel="stylesheet" href="basic.css"/>
+     <!--[if IE]>
+  <link rel="stylesheet" type="text/css" />
+  #photo2 {
+            width: 61.9vh;
+            height: 58.2%;
+            top:50.32%;
+            left: 50%;
+    position: fixed;}
+<![endif]-->
+    <script src="leaflet.js"></script>
+    
+</head>
+
+<body  ondragstart="return false;" ondrop="return false;">
+  <div id="whiteforremove"></div>
+  <div id="whiteforremove2"><div id="loadingbar">.</div>LOADING<div id="loadingbar">.</div>
+                    </div>
+
+  <div id="graybox"></div>
+     <div id="dis_tagbox">
+          <div class="dis_tag noselect underline" id="tag_2009">2009</div>
+          <div class="dis_tag noselect underline" id="tag_2010" >2010</div>
+          <div class="dis_tag noselect underline" id="tag_2011" >2011</div>
+          <div class="dis_tag noselect underline" id="tag_2012" >2012</div>
+          <div class="dis_tag noselect underline" id="tag_2013" >2013</div>
+          <div class="dis_tag noselect underline" id="tag_2014" >2014</div>
+          <div class="dis_tag noselect underline" id="tag_2015" >2015</div>
+          <div class="dis_tag noselect underline" id="tag_2016" >2016</div>
+          <div class="dis_tag noselect " id="tag_n1" style="cursor: default;"><img src="circle.svg" class="tagdots">N+1</div>
+          <div class="dis_tag noselect" id="tag_n2" style="cursor: default;"><img src="circle.svg" class="tagdots">N+2</div>
+          <div class="dis_tag noselect" id="tag_n3" style="cursor: default;"><img src="circle.svg" class="tagdots">N+3</div>
+          <div class="dis_tag noselect arrow">
+              <img src="dotdotdot.svg" 
+              style="transform:rotate(-8deg);
+              -ms-transform:rotate(-8deg);
+              -webkit-transform:rotate(-8deg);
+                    " id="yeararrow1">
+          </div>
+
+  </div>
+
+
+
+
+
+    <div id="photo" style="z-index: 1000"></div>
+    <div id="photo2" style="z-index: 1000"></div>
+    <div id="graph" ></div>
+
+         
+    <a href="http://www.summerschool-isia.werkplaatstypografie.org/">
+    <div class="dis" id="titlebox">LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. AENEAN COMMODO LIGUL
+    </div></a>
+    <div id="titlediscription"><a class="underlinelink" href="http://www.summerschool-isia.werkplaatstypografie.org/">Website</a> / <a class="underlinelink" href="photo.html">Photoarchive</a></div>
+         
+
+    <div class="dis" id="dis_supervisors"><span class="transform">(</span>Supervisors<span class="transform">)</span></div>
+    <div class="supervisorsbox supervisorsbox1 yearchange y09 y10 y11 y12 y14 "><a class="supervisorsname " ><span class="underline">Dummy Text 001</span></a></div>
+    <div class="supervisorsbox supervisorsbox1 yearchange y13 y15 y16"><a class="supervisorsname"><span class="underline">Barbara Visser</div>
+    <div class="supervisorsbox supervisorsbox2 yearchange y09 y10 y11 y12 y13 y14 y15 y16"><a class="supervisorsname" ><span class="underline">Dummy Text 002</span></a></div>
+    <div class="supervisorsbox supervisorsbox3 yearchange y09 y10 y11 y12 y13 y14 y15 y16"><a class="supervisorsname" ><span class="underline">Dummy Text 003</span></a></div>
+    <div class="supervisorsbox supervisorsbox4 yearchange y09 y10 y11 y12 y13 y14 y15 y16"><a class="supervisorsname" ><span class="underline">Dummy Text 004</span></a></div>
+
+
+
+  <div id="subdiscription"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultr<a class="underlinelink" href="http://www.summerschool-isia.werkplaatstypografie.org/">here.</a></div>
+
+
+
+
+
+
+
+
+
+    <div class="lefttopinfo y09 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2009</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 26</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >August 7</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+           <!-- div class="taskbox">
+       <div class="dis" id="dis_task">Task</div><a class="task" style="cursor: default;">Urbino, A Cultural Identity</a></div> -->
+    </div>
+
+     <div class="lefttopinfo y10 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2010</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 19</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >July 30</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+     <div class="lefttopinfo y11 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2011</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 24</div>
+                <img src="slash.svg" class="date">
+                <div class="date" >August 5</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+     <div class="lefttopinfo y12 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2012</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 29</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >August 10</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+     <div class="lefttopinfo y13 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2013</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 15</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >July 26</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+     <div class="lefttopinfo y14 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2014</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 20</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >August 1</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+     <div class="lefttopinfo y15 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2015</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 19</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >July 31</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+     <div class="lefttopinfo y16 yearchange">
+           <div class="yearbox"><div class="dis" id="dis_year"><span class="transform">(</span>Year<span class="transform">)</span></div>
+           <a class="year" style="cursor: default;">2016</a></div>
+           <div class="datebox"><div class="dis" id="dis_date"><span class="transform">(</span>Date<span class="transform">)</span></div>
+                <div class="date" id="firstofdate">July 24</div>
+                <img src="slash.svg" class="date" >
+                <div class="date" >August 5</div>
+            </div>
+           <div class="placebox" style="cursor: default;">
+                <div class="dis" id="dis_place"><span class="transform">(</span>Place<span class="transform">)</span></div>
+                <a class="place" style="cursor: default;">Urbino</a>
+          </div>
+    </div>
+
+       
+         
+     <div class="dis" id="dis_participants" style="text-align: left;"><span class="transform">(</span>Participants<span class="transform">)</span></div>
+     <div class="participantsbox yearchange y09">
+            <a class="participantsname name01"
+              href="https://drive.google.com/open?id=1x0MVMbU63bLbv8jz0t7_EInR1BEDw7B9">
+            <span class="underline underline01">Dummy Text 005</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=1K08WJfDGthcgekIchPOitLH1ZNAMxkvD">
+            <span class="underline underline02">Dummy Text 006</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=1bHw_fpXd-BJYSY0de8N2KZFLLRulYRu6">
+            <span class="underline underline03">Dummy Text 007</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=1-mzhNpK_8961EVg0Adu6xJo0rZvcoFdH">
+            <span class="underline underline04">Dummy Text 008</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=1pzR0RGuyVufmLHmNA-e5XbUZzDtRgXnQ">
+            <span class="underline underline05">Dummy Text 009</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=10kEMDtSqh5DpjHol8eIdxpsubhoDf3Z2">
+            <span class="underline underline06">Dummy Text 010</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=1fPJ7-CN3Z51TkEPe4fthDgPXWV_jG4wY">
+            <span class="underline underline07">Dummy Text 011</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=1Uqbwv8VhCIiXYwjZCZNYMpomfEydp37G">
+            <span class="underline underline08">Dummy Text 012</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=18w0G-3n7xUIqGi_EEUgCXPU_9OGiBAzQ">
+            <span class="underline underline09">Dummy Text 013</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=1sgaVQ9q4jMkAhnJgYehX_Iy8qluzA0a2">
+            <span class="underline underline10">Dummy Text 014</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=1vCThUDoG6MdZnxwCPFW6myGRGsxdwMdt">
+            <span class="underline underline11">Dummy Text 015</span></a>
+           <a class="participantsname name12"
+              href="https://drive.google.com/open?id=1JBvlgn03VNSBtIjFl63U9IgAzmtANcms">
+            <span class="underline underline12">Dummy Text 016</span></a>
+           <a class="participantsname name13"
+              href="https://drive.google.com/open?id=16uSRGaT9Giaq-BAUaYkthfmx_bnzRNNI">
+            <span class="underline underline13">Dummy Text 017</span></a>
+           <a class="participantsname name14"
+              href="https://drive.google.com/open?id=1Nux-wzXDcZqRny3_IWtNXQWQ9Q2Bdn6v">
+            <span class="underline underline14">Dummy Text 018</span></a>
+           <a class="participantsname name15"
+              href="https://drive.google.com/open?id=1Qu1d4cEMpedDUOjkY1ryDfndQRT2EdOb">
+            <span class="underline underline15">Dummy Text 019</span></a>
+           <a class="participantsname name16"
+              href="https://drive.google.com/open?id=13gKG9J8yrXfxOl3Vmi39Wm8nryIIne01">
+            <span class="underline underline16">Dummy Text 020</span></a>
+           <a class="participantsname name17"
+              href="https://drive.google.com/open?id=1cDXY4IeDM-63zhk14wxTqplLSpzophWv">
+            <span class="underline underline17">Dummy Text 021</span></a>
+           <a class="participantsname name18"
+              href="https://drive.google.com/open?id=117i92uxGq7FqpSvozK4CR6SwOcKlJzZy">
+            <span class="underline underline18">Dummy Text 022</span></a>
+           <a class="participantsname name19"
+              href="https://drive.google.com/open?id=1FvpIv4lw_jA-mUL69fatLedK7Vm88Gjd">
+            <span class="underline underline19">Dummy Text 023</span></a>
+           <a class="participantsname name20"
+              href="https://drive.google.com/open?id=1mkdyUHLoOxVkSb4INBSicCrCg9x6KxSQ">
+            <span class="underline underline20">Dummy Text 024</span></a>
+           <a class="participantsname name21"
+              href="https://drive.google.com/open?id=16S3ndms4xvBMDGEOMdR8FTlFsSeTBY3R">
+            <span class="underline underline21">Dummy Text 025</span></a>
+           <a class="participantsname name22"
+              href="https://drive.google.com/open?id=1r6HVkK3DSMAE-eP8y2X4B1AyNSlWM17F">
+            <span class="underline underline22">Dummy Text 026</span></a>
+           <a class="participantsname name23"
+              href="https://drive.google.com/open?id=1-EShEs21u635isccx_aFurtPbFbEu3TI">
+            <span class="underline underline23">Dummy Text 027</span></a>
+           <a class="participantsname name24"
+              href="https://drive.google.com/open?id=1zDAlMQW4SMv6fmeKVx6Xk5g1uLWgmz6y">
+            <span class="underline underline24">Dummy Text 028</span></a>
+           <a class="participantsname name25"
+              href="https://drive.google.com/open?id=1t-btKmpQCmg_F8lBakGII83ZaMY2TeJj">
+            <span class="underline underline25">Dummy Text 029</span></a>
+           <a class="participantsname name26"
+              href="https://drive.google.com/open?id=1-a34BihM9IP4EwoMIE3sY7D2PxM3lnmS">
+            <span class="underline underline26">Dummy Text 030</span></a>
+           <a class="participantsname name27"
+              href="https://drive.google.com/open?id=1f3ybFlbF9nfSFljjcEVLPQufYBmwVcsL">
+            <span class="underline underline27">Dummy Text 031</span></a>
+           <a class="participantsname name28"
+              href="https://drive.google.com/open?id=1dw0a_cnXKN6Y1qVmhCaWn_BU_ZpgTJyq">
+            <span class="underline underline28">Dummy Text 032</span></a>
+           <a class="participantsname name29"
+              href="https://drive.google.com/open?id=1v1kQ2FHu8oTR2AM2J9ubLJtoRz4BwPY0">
+            <span class="underline underline29">Dummy Text 033</span></a>
+      </div>
+
+
+
+     <div class="participantsbox yearchange y10 ">
+           <a class="participantsname name01"
+              href="https://drive.google.com/open?id=1ZkvAqdqSIO4lSI-DwQ5P8_yFOqWfFPkU">
+            <span class="underline underline01">Dummy Text 034</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=18LC0m2PNYKEp_fmJJp81j1uXL1ONUd3y">
+            <span class="underline underline02">Dummy Text 035</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=1ZhMjpT4Jm8naMglF36Rtyx9izSJRAf6u">
+            <span class="underline underline03">Dummy Text 036</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=1IGClQuykcNqpWkBeGJrseBYS91schytN">
+            <span class="underline underline04">Dummy Text 037</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=1Qg_uVwbspN3kNPnKjgehaL9LsIbeN9qh">
+            <span class="underline underline05">Dummy Text 038</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=1Q3H_6M3MKoxN6V0lvKEs1wAQvBl9sXHB">
+            <span class="underline underline06">Dummy Text 039</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=1NLbzwORleV-XZ5ncaT-FYny22FDkvXOV">
+            <span class="underline underline07">Dummy Text 040</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=1KH-EdKH-ihYPFPlbNTMXabxOB5PMEaEn">
+            <span class="underline underline08">Dummy Text 041</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=1H6W5LHrViDm4WMpg5invoQSz00GxuBec">
+            <span class="underline underline09">Dummy Text 042</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=1kAMvAQ3hpBUlzxAJDD1Membpcr5EcD56">
+            <span class="underline underline10">Dummy Text 043</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=1NZaL7B9Gd5wjORkUPQxF-QPoXt579yXN">
+            <span class="underline underline11">Dummy Text 044</span></a>
+           <a class="participantsname name12"
+              href="https://drive.google.com/open?id=1qid7hltRmA3ukRaARZTILe6OTlNv384t">
+            <span class="underline underline12">Dummy Text 045</span></a>
+           <a class="participantsname name13"
+              href="https://drive.google.com/open?id=1f8PgTzn2V3WmyNoipNcfcTtJ7k-yOLtU">
+            <span class="underline underline13">Dummy Text 046</span></a>
+           <a class="participantsname name14"
+              href="https://drive.google.com/open?id=102046kUgov5mag_MjdQpN_1RAjgNofHK">
+            <span class="underline underline14">Dummy Text 047</span></a>
+           <a class="participantsname name15"
+              href="https://drive.google.com/open?id=12wexU4rcm2qYMWE87Vqe3ltmoZbzWLBz">
+            <span class="underline underline15">Dummy Text 048</span></a>
+           <a class="participantsname name16"
+              href="https://drive.google.com/open?id=1KtBj3_5YE856qDvGvkndDp8jimo3kAxO">
+            <span class="underline underline16">Dummy Text 049</span></a>
+           <a class="participantsname name17"
+              href="https://drive.google.com/open?id=1MK1iHgKetnhwIYoXzAG9P1-7jloEY268">
+            <span class="underline underline17">Dummy Text 050</span></a>
+           <a class="participantsname name18"
+              href="https://drive.google.com/open?id=1e8NRKsQD_Fag3Ttu0EEcanfVVEwiRBHx">
+            <span class="underline underline18">Dummy Text 051</span></a>
+           <a class="participantsname name19"
+              href="https://drive.google.com/open?id=1BB29XCoteiaWR0NceM-7_V-8uetryyRd">
+            <span class="underline underline19">Dummy Text 052</span></a>
+           <a class="participantsname name21"
+              href="https://drive.google.com/open?id=1oUEj9_ZNcIZgh1xqFu5mWI76qc1_9LI5">
+            <span class="underline underline20">Dummy Text 053</span></a>
+           <a class="participantsname name22"
+              href="https://drive.google.com/open?id=1_IvdKzfOqMkVWNxB835sf631V33pVu6o">
+            <span class="underline underline21">Dummy Text 054</span></a>
+           <a class="participantsname name23"
+              href="https://drive.google.com/open?id=1tgtt1GzKfctngaIH_9udoymH8bWUIACC">
+            <span class="underline underline22">Dummy Text 055</span></a>
+           <a class="participantsname name24"
+              href="https://drive.google.com/open?id=1i7pNIcIwHnQ8UrYv-UZMDTrrmy3H07qr">
+            <span class="underline underline23">Dummy Text 056</span></a>
+           <a class="participantsname name25"
+              href="https://drive.google.com/open?id=14MVehUpRN8ar10XhjqlFwRVHXPgU4Fp2">
+            <span class="underline underline24">Dummy Text 057</span></a>
+           <a class="participantsname name26"
+              href="https://drive.google.com/open?id=1dmiXu22h2tZOGVFLou8PUNc-K4MspzmR">
+            <span class="underline underline25">Dummy Text 058</span></a>
+           <a class="participantsname name27"
+              href="https://drive.google.com/open?id=1euRch8saUXcWDRV-WGjhW5_pcZaUZBvh">
+            <span class="underline underline26">Dummy Text 059</span></a>
+      </div>
+
+     <div class="participantsbox yearchange y11 ">
+           <a class="participantsname name01"
+              href="https://drive.google.com/open?id=1zUuXwVLfLVFz0MbAJEoY5fgb_CnY5-p7">
+            <span class="underline underline01">Dummy Text 060</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=1H5hN-M11z-R6cHOGMWLKMTvE_WVB_Ddw">
+            <span class="underline underline02">Dummy Text 061</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=1isQZULkKB9DQ-3Kj779XeO6KPxDaI_AS">
+            <span class="underline underline03">Dummy Text 062</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=1ClrZmJvWAQmVL8NXalNy8Ac_kAx2IpS4">
+            <span class="underline underline04">Dummy Text 063</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=1Kh_IiyqCVBRsPkW2tpgdwDQIMT9YvqCW">
+            <span class="underline underline05">Dummy Text 064</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=1hZx5I1UWIQAFBqV_GyiG77zZV-yiHE0D">
+            <span class="underline underline06">Dummy Text 065</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=1iwahHSI9wt2FTprxjd0oGt2YvpEIrqc-">
+            <span class="underline underline07">Dummy Text 066</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=1ky8cucXEGWgGsznMShUs3owjVSJ-zabD">
+            <span class="underline underline08">Dummy Text 067</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=1iYmRcJYi5qQABDA8oZfKotHSSmby7hDH">
+            <span class="underline underline09">Dummy Text 068</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=1gXyL_qj-mUILlSXhnFqlxGp246Jdg2f1">
+            <span class="underline underline10">Dummy Text 069</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=17M8GM_Iikgmm1DD28C1EGjOEAJWL8Ard">
+            <span class="underline underline11">Dummy Text 070</span></a>
+           <a class="participantsname name12"
+              href="https://drive.google.com/open?id=1zavT8kPrUpvtoWOMsJijltFeZamNRfxp">
+            <span class="underline underline12">Dummy Text 071</span></a>
+           <a class="participantsname name13"
+              href="https://drive.google.com/open?id=1QVu6P8DQEe8hn5oANc7HGe_x2CM5lnOn">
+            <span class="underline underline13">Dummy Text 072</span></a>
+           <a class="participantsname name14"
+              href="https://drive.google.com/open?id=1a_p-cWqSOrGzAW1BsRebq7xy7za89c-T">
+            <span class="underline underline14">Dummy Text 073</span></a>
+           <a class="participantsname name15"
+              href="https://drive.google.com/open?id=1V_YIZlyrqtRyEkPTLUh9fM0kHnjtdn9a">
+            <span class="underline underline15">Dummy Text 074</span></a>
+           <a class="participantsname name16"
+              href="https://drive.google.com/open?id=1z4dX_nbDE2ibKDZa3yZvSzru-cjzzqwL">
+            <span class="underline underline16">Dummy Text 075</span></a>
+           <a class="participantsname name17"
+              href="https://drive.google.com/open?id=1CSg7_-E7GVov6mXcjn_CHbwQT7uWd5wD">
+            <span class="underline underline17">Dummy Text 076</span></a>
+           <a class="participantsname name18"
+              href="https://drive.google.com/open?id=1xHwfxP-Pg6tkGmmOdNYOmTAIku7zMC_U">
+            <span class="underline underline18">Dummy Text 077</span></a>
+           <a class="participantsname name19"
+              href="https://drive.google.com/open?id=16snQlCeizozvdWcQC7kMjMLE92OyatJa">
+            <span class="underline underline19">Dummy Text 078</span></a>
+           <a class="participantsname name21"
+              href="https://drive.google.com/open?id=14l5-6hFqs9rx9CHuX9BhVwIguOsCxkDD">
+            <span class="underline underline20">Dummy Text 079</span></a>
+           <a class="participantsname name22"
+              href="https://drive.google.com/open?id=1WlE4FDYMWLIWFJJUPwh1qpjevalRorVU">
+            <span class="underline underline21">Dummy Text 080</span></a>
+           <a class="participantsname name23"
+              href="https://drive.google.com/open?id=1NG41Jn7IpKqJ-YUeXgSgRnR0gpfVSDsW">
+            <span class="underline underline22">Dummy Text 081</span></a>
+           <a class="participantsname name24"
+              href="https://drive.google.com/open?id=12RNtjSgh-JkWb9ONnXXYg8_duu91rreO">
+            <span class="underline underline23">Dummy Text 082</span></a>
+           <a class="participantsname name25"
+              href="https://drive.google.com/open?id=1D4oYoQdP_YjTnfHgSVLAigLSM6CU0uGk">
+            <span class="underline underline24">Dummy Text 083</span></a>
+           <a class="participantsname name26"
+              href="https://drive.google.com/open?id=1o3MBcw9chhajianWxRhnZynTEs3RPdcy">
+            <span class="underline underline25">Dummy Text 084</span></a>
+           <a class="participantsname name27"
+              href="https://drive.google.com/open?id=1iX2MMHQylK7-m0cRykVLRiEm8rjt660f">
+            <span class="underline underline26">Dummy Text 085</span></a>
+           <a class="participantsname name28"
+              href="https://drive.google.com/open?id=1k7nReaUviY7csTF3rJOrgvOqhbPj_TPn">
+            <span class="underline underline27">Dummy Text 086</span></a>
+      </div>
+
+
+     <div class="participantsbox yearchange y12 ">
+           <a class="participantsname name01"
+              href="https://drive.google.com/open?id=11e_B9cGpS7jE2rOu5TwA2k_hbAlliB5Z">
+            <span class="underline underline01">Dummy Text 087</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=1ySwpfUeSAcEd3fb5Z35M2VPY1RMI3FQr">
+            <span class="underline underline02">Dummy Text 088</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=1_mAI1HZqZDqYKaRCvqOaHd6BhweXwGjb">
+            <span class="underline underline03">Dummy Text 089</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=1QHgAtQnd7g76MjinrTl0dwbTMcuSzOd6">
+            <span class="underline underline04">Dummy Text 090</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=15bMYY8SbZutrdsb3Wdpu2QReTlrlVVTd">
+            <span class="underline underline05">Dummy Text 091</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=142Aa1b9NCg75xM9E9QoBmXopC54o5c_X">
+            <span class="underline underline06">Dummy Text 092</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=16Rm0ZcW_mUxM78fKk51aard1eDui6Ni9">
+            <span class="underline underline07">Dummy Text 093</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=1MiM356L2A0viTovAlgRQ1JGfftJIVw8A">
+            <span class="underline underline08">Dummy Text 094</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=1fjKF8lf1M7S5JVJhxe6IGd6P4bk6iHdp">
+            <span class="underline underline09">Dummy Text 095</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=1eatBLwFTeOn_ARJp8yuVsMGa3fVN1Rxy">
+            <span class="underline underline10">Dummy Text 096</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=1Se3HjK9GPoAEFLcyNvNcTaX6JFix0ajN">
+            <span class="underline underline11">Dummy Text 097</span></a>
+           <a class="participantsname name12"
+              href="https://drive.google.com/open?id=1b7IZe4Q5CwS2Tj96H0jNX4x7kj8RwZ0V">
+            <span class="underline underline12">Dummy Text 098</span></a>
+           <a class="participantsname name13"
+              href="https://drive.google.com/open?id=1pzLlx9zkRuu1guscM3mzTdGyuSmsJyzP">
+            <span class="underline underline13">Dummy Text 099</span></a>
+           <a class="participantsname name14"
+              href="https://drive.google.com/open?id=1WfZQEm_lEFn_CdlGNaX4eZQ_dL6R2mXl">
+            <span class="underline underline14">Dummy Text 100</span></a>
+           <a class="participantsname name15"
+              href="https://drive.google.com/open?id=1D3OcOUwqIUzIB4ZeycxlI5xN30nLtDLB">
+            <span class="underline underline15">Dummy Text 101</span></a>
+           <a class="participantsname name16"
+              href="https://drive.google.com/open?id=1mbZmr_1fdHDKsYTSjWxYA6nRUcah1ZZy">
+            <span class="underline underline16">Dummy Text 102</span></a>
+           <a class="participantsname name17"
+              href="https://drive.google.com/open?id=193ZZr1topP6MSDtPIbVvchXgdDZuJF7t">
+            <span class="underline underline17">Dummy Text 103</span></a>
+           <a class="participantsname name18"
+              href="https://drive.google.com/open?id=1-cZD247EhnLWEORcE5jAoqsQiTpsLYLS">
+            <span class="underline underline18">Dummy Text 104</span></a>
+           <a class="participantsname name19"
+              href="https://drive.google.com/open?id=1-3hv0_1eM0sEoVFU8dq_X4gaFKqQkj3F">
+            <span class="underline underline19">Dummy Text 105</span></a>
+         </div>
+
+
+
+
+     <div class="participantsbox yearchange y13">
+           <a class="participantsname name01"
+              href="https://drive.google.com/open?id=1KVAqJkesYcUvr-VjMpnBL2_krvBZCBxY">
+            <span class="underline underline01">Dummy Text 106</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=1A3xO-eG6m6JQGIm2ijfHgUv36N2TI9Bj">
+            <span class="underline underline02">Dummy Text 107</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=1lrPT-ygF7001xWWqKe4HLj_HKu3a1SxV">
+            <span class="underline underline03">Dummy Text 108</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=1bn4n6F2oHqoubRqM6LbvWXyDMQpxgLRA">
+            <span class="underline underline04">Dummy Text 109</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=1BejSzkwTmS8QqDI1W5y3EgZ2UeZ4LuvQ">
+            <span class="underline underline05">Dummy Text 110</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=14AKRKCgkfUt7SsKFjYBmcOguG_RV7Q-u">
+            <span class="underline underline06">Dummy Text 111</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=1VFcMNYwbk3KqL2JQiq5pJoPHvy6rYIOk">
+            <span class="underline underline07">Dummy Text 112</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=1FoEHJh3ma1ehr_XLT6enF0BuQpQxF8Ir">
+            <span class="underline underline08">Dummy Text 113</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=1YGbu-ah3NJwrxL8wT_VVjQr0LTlcvaRq">
+            <span class="underline underline09">Dummy Text 114</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=1J4EqLG1ejnklD82bW4vMZw_Y41m-3yZ2">
+            <span class="underline underline10">Dummy Text 115</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=103Jv-042G_4qxMosWAd6mAf3ZMbwcJiN">
+            <span class="underline underline11">Dummy Text 116</span></a>
+           <a class="participantsname name12"
+              href="https://drive.google.com/open?id=1VvUbEhg0WdUGaW0AZf9WYG5W1WKOMkbd">
+            <span class="underline underline12">Dummy Text 117</span></a>
+           <a class="participantsname name13"
+              href="https://drive.google.com/open?id=1fbtsY1AH19CK9YLHVvNDEEjlKd8Ki_T6">
+            <span class="underline underline13">Dummy Text 118</span></a>
+           <a class="participantsname name14"
+              href="https://drive.google.com/open?id=1fyAIClVNE9ZhcU_EF4uloeyp_9ScLFa1">
+            <span class="underline underline14">Dummy Text 119</span></a>
+           <a class="participantsname name15"
+              href="https://drive.google.com/open?id=1u7g3Jf28_wEqfm8L2kFiktVGVfk7YcOU">
+            <span class="underline underline15">Dummy Text 120</span></a>
+           <a class="participantsname name16"
+              href="https://drive.google.com/open?id=1OHX2KQncVzncRJkEmTYv7tAwVPMu_zyJ">
+            <span class="underline underline16">Dummy Text 121</span></a>
+           <a class="participantsname name17"
+              href="https://drive.google.com/open?id=1544DkepoNH_x9WH4B9RQufSvEmoZwRmr">
+            <span class="underline underline17">Dummy Text 122</span></a>
+           <a class="participantsname name18"
+              href="https://drive.google.com/open?id=18rM6I21qkoWG8ZKHaNtdjtPKnY0sHeO5">
+            <span class="underline underline18">Dummy Text 123</span></a>
+           <a class="participantsname name19"
+              href="https://drive.google.com/open?id=1hG5PnIx-jzk2WPSHaW1fSUHmpGeaBvH3">
+            <span class="underline underline19">Dummy Text 124</span></a>
+           <a class="participantsname name20"
+              href="https://drive.google.com/open?id=1wl9vYDyuQkHyhFYRM3W73hp1Fog_gTu6">
+            <span class="underline underline20">Dummy Text 125</span></a>
+           <a class="participantsname name21"
+              href="https://drive.google.com/open?id=1YIt95NtNgkM_wAT2CXqjF6XYdZMir8rY">
+            <span class="underline underline21">Dummy Text 126</span></a>
+           <a class="participantsname name22"
+              href="https://drive.google.com/open?id=1eodJ3b8bSX_1UpGNL6QjK4XJ_Cqwmb95">
+            <span class="underline underline22">Dummy Text 127</span></a>
+           <a class="participantsname name23"
+              href="https://drive.google.com/open?id=1ooxorJDS_Geo7liTqsKBBtvj0BsPU6M2">
+            <span class="underline underline23">Dummy Text 128</span></a>
+           <a class="participantsname name24"
+              href="https://drive.google.com/open?id=1eM7R7_MUBtE5OQCYQJti0E2JYG4HMYPa">
+            <span class="underline underline24">Dummy Text 129</span></a>
+           <a class="participantsname name25"
+              href="https://drive.google.com/open?id=1FCalQsaySHUg_OyEzXqQuxtmci1IeQUI">
+            <span class="underline underline25">Dummy Text 130</span></a>
+      </div>
+
+
+     <div class="participantsbox yearchange y14 ">
+           <a class="participantsname name01" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4cmqzcdjruk9ny3c">
+              <span class="underline underline01">Dummy Text 131</span></a>
+           <a class="participantsname name02" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4emhsvmvndly3cwhlmkv1y0j3bwmwn2xes2fn">
+              <span class="underline underline02">Dummy Text 132</span></a>
+           <a class="participantsname name03" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4tvq5vwg3bfrirtdmdtg3z2pxuhdpb2ltnuiw">
+              <span class="underline underline03">Dummy Text 133</span></a>
+           <a class="participantsname name04" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4lvlsx0phdnvma1k">
+              <span class="underline underline04">Dummy Text 134</span></a>
+           <a class="participantsname name05" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4r1vhwdfgtxfoww8">
+              <span class="underline underline05">Dummy Text 135</span></a>
+           <a class="participantsname name06" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4tdnnwfe1etz3stq">
+              <span class="underline underline06">Dummy Text 136</span></a>
+           <a class="participantsname name07" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4ttzqz0l6sxb0z21ku1biytdfti10culemdnv">
+              <span class="underline underline07">Dummy Text 137</span></a>
+           <a class="participantsname name08" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4mkneqvhdckrqvg8">
+              <span class="underline underline08">Dummy Text 138</span></a>
+           <a class="participantsname name09" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4a1pkwtq1y3dfmvu">
+              <span class="underline underline09">Dummy Text 139</span></a>
+           <a class="participantsname name10" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4os1gn2vetjjaz00">
+              <span class="underline underline10">Dummy Text 140</span></a>
+           <a class="participantsname name11" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4rwotuzhaagwxnxm">
+              <span class="underline underline11">Dummy Text 141</span></a>
+           <a class="participantsname name12" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4c0xmq1lnym0ym1u">
+              <span class="underline underline12">Dummy Text 142</span></a>
+           <a class="participantsname name13" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4y2wzzxbyunzpn0jxdxz3znpxytrcag9xsezz">
+              <span class="underline underline13">Dummy Text 143</span></a>
+           <a class="participantsname name14" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4rxrua21utgthnta">
+              <span class="underline underline14">Dummy Text 144</span></a>
+           <a class="participantsname name15" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4mm43vhldyzrgcwhlvwuzblhyy19amvzuwniw">
+              <span class="underline underline15">Dummy Text 145</span></a>
+           <a class="participantsname name16" 
+              href="https://drive.google.com/open?id=0b9lvzhfvhvo4tlrbx1hxofrmohowahbjnerdzzm2cjriylzv">
+              <span class="underline underline16">Dummy Text 146</span></a>
+      </div>
+
+
+
+
+     <div class="participantsbox yearchange y15">
+           <a class="participantsname name01"
+              href="https://drive.google.com/open?id=0b78qpxr1cdandlr1t3v1rkvrr2s">
+              <span class="underline underline01">Dummy Text 147</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanqnhxnnz6eeprn3m">
+              <span class="underline underline02">Dummy Text 148</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanevjioxdrwfbon3c">
+              <span class="underline underline03">Dummy Text 149</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanbnzqdvitvdk4mzq">
+              <span class="underline underline04">Dummy Text 150</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanevlpc1vgmnbnvkk">
+              <span class="underline underline05">Dummy Text 151</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=0b78qpxr1cdannjdzy0nzy0xrzek">
+              <span class="underline underline06">Dummy Text 152</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=0b78qpxr1cdantkfbsnfrbkndsek">
+              <span class="underline underline07">Dummy Text 153</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanmxptlxlzltvrek0">
+              <span class="underline underline08">Dummy Text 154</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanc2ktogjzq0xhlxc">
+              <span class="underline underline09">Dummy Text 155</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=0b78qpxr1cdana21xchbcczm2nda">
+              <span class="underline underline10">Dummy Text 156</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=0b78qpxr1cdanrnztr04yzlzrcda">
+              <span class="underline underline11">Dummy Text 157</span></a>
+
+      </div>
+
+
+
+     <div class="participantsbox yearchange y16">
+           <a class="participantsname name01"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcnhywvfdqb3latkk">
+            <span class="underline underline01">Dummy Text 158</span></a>
+           <a class="participantsname name02"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcs1hvz3ctvgfsbms">
+            <span class="underline underline02">Dummy Text 159</span></a>
+           <a class="participantsname name03"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcvliwweowytdjvfk">
+            <span class="underline underline03">Dummy Text 160</span></a>
+           <a class="participantsname name04"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcdxjxnmy5t0fqmlk">
+            <span class="underline underline04">Dummy Text 161</span></a>
+           <a class="participantsname name05"
+              href="https://drive.google.com/open?id=0b_kql2aj9hy3ru4zavdylwxpalk">
+            <span class="underline underline05">Dummy Text 162</span></a>
+           <a class="participantsname name06"
+              href="https://drive.google.com/open?id=0b9da7vryxlqctmnuzvj1blfnq28">
+            <span class="underline underline06">Dummy Text 163</span></a>
+           <a class="participantsname name07"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcem14ell3s05xmhc">
+            <span class="underline underline07">Dummy Text 164</span></a>
+           <a class="participantsname name08"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcvelrdxpztmreekk">
+            <span class="underline underline08">Dummy Text 165</span></a>
+           <a class="participantsname name09"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcywjds0vpv1hbb00">
+            <span class="underline underline09">Dummy Text 166</span></a>
+           <a class="participantsname name10"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcoxvuu0fnaelrovu">
+            <span class="underline underline10">Dummy Text 167</span></a>
+           <a class="participantsname name11"
+              href="https://drive.google.com/open?id=0b9da7vryxlqctvdrung1vnhhbke">
+            <span class="underline underline11">Dummy Text 168</span></a>
+           <a class="participantsname name12"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcudhfb0jpaufpsm8">
+            <span class="underline underline12">Dummy Text 169</span></a>
+           <a class="participantsname name13"
+              href="https://drive.google.com/open?id=0b9da7vryxlqctdlnyvlzqkd5bw8">
+            <span class="underline underline13">Dummy Text 170</span></a>
+           <a class="participantsname name14"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcs0fjq1zmwjv4d2s">
+            <span class="underline underline14">Dummy Text 171</span></a>
+           <a class="participantsname name15"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcqjfuzvm2nzmwevk">
+            <span class="underline underline15">Dummy Text 172</span></a>
+           <a class="participantsname name16"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcuvb2nzrzvjjncm8">
+            <span class="underline underline16">Dummy Text 173</span></a>
+           <a class="participantsname name17"
+              href="https://drive.google.com/open?id=0b9da7vryxlqcvelrdxpztmreekk">
+            <span class="underline underline17">Dummy Text 174</span></a>
+
+      </div>
+
+ 
+
+
+
+
+<svg width="0" height="0">
+  <defs>
+    <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+      <polygon points="0.6666 0, 1 0, 1 1, 0.6666 1" />
+    </clipPath>
+  </defs>
+</svg>
+
+
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <script src="three.js"></script>
+    <script src="Projector.js"></script>
+    <script src="CanvasRenderer.js"></script>
+    <script src="OrthographicCamera.js"></script>
+    <script type="text/javascript" src="L.TileLayer.Zoomify.js"></script>  
+
+    <script src="basic.js"></script>
+
+    <script type="text/javascript" src="L.SimpleGraticule2.js"></script>
+    <script src="L.Map.Sync.js"></script> 
+    <script src="geojson.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+////////map////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    var options = {
+        interval: 8,
+        interval2: 5.6875,
+        showshowOriginLabel: true,
+        redraw: 'move'
+    }; 
+    var highlightStyle = {
+            fillOpacity: 0.6,
+            Opacity: 0.6
+        }    
+    function getRandomColor() {
+          var items = ["#00D6D6","#C480FF","#FFFA00"];
+          var item = items[Math.floor(Math.random()*items.length)];
+          console.log(item)
+        return item;
+      }
+    var result
+    function highlightFeature(evt) {
+        result = getRandomColor();
+        var feature = evt.target;
+        feature.setStyle({
+            fillColor: result,
+            fillOpacity: 0.6,
+            color: result,
+            lineJoin: 'miter',
+            opacity: 1,
+            weight: 10
+            });
+        if (!L.Browser.ie && !L.Browser.opera) {
+            feature.bringToFront();
+        }
+    }
+    function resetHighlight(evt) {
+        statesLayer.resetStyle(evt.target);
+    }
+
+
+    function popUpFeature(feature, layer){
+                layer.on('mouseout', function() { 
+
+                var elements = document.getElementsByClassName("participantsname");
+                for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.fontSize="2vh";}
+                        var elements = document.getElementsByClassName("underline");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "1000px 1000px"
+                    }
+
+
+                if(window.innerHeight<1024){
+                    var elements = document.getElementsByClassName("gridlabel-horiz");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.fontSize="2vh";}
+                    }else{
+                    var elements = document.getElementsByClassName("gridlabel-horiz");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.fontSize="20.48px";}}
+                 })
+
+
+
+     if (feature.properties.name == "name01" ){
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name01");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*0;}
+
+
+                        var elements = document.getElementsByClassName("underline01");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"
+                    }
+
+                 })
+                }
+
+     if (feature.properties.name == "name02" ){
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name02");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*1;}
+
+                        var elements = document.getElementsByClassName("underline02");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name03" ){
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name03");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*2;}
+
+                        var elements = document.getElementsByClassName("underline03");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name04" ){
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name04");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*3;}
+
+                        var elements = document.getElementsByClassName("underline04");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name05" ){
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name05");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*4;}
+
+                        var elements = document.getElementsByClassName("underline05");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name06" ){
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name06");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*5;}
+
+                        var elements = document.getElementsByClassName("underline06");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name07" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name07");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*6;}
+
+                        var elements = document.getElementsByClassName("underline07");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name08" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name08");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*7;}
+
+                        var elements = document.getElementsByClassName("underline08");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name09" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name09");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*8;}
+
+                        var elements = document.getElementsByClassName("underline09");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+     if (feature.properties.name == "name10" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name10");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*9;}
+
+                        var elements = document.getElementsByClassName("underline10");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+     if (feature.properties.name == "name11" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name11");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*10;}
+
+                        var elements = document.getElementsByClassName("underline11");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+     if (feature.properties.name == "name12" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name12");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*11;}
+
+                        var elements = document.getElementsByClassName("underline12");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name13" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name13");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*12;}
+
+                        var elements = document.getElementsByClassName("underline13");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name14" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name14");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*13;}
+
+                        var elements = document.getElementsByClassName("underline14");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name15" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name15");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*14;}
+
+                        var elements = document.getElementsByClassName("underline15");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name16" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name16");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*15;}
+
+                        var elements = document.getElementsByClassName("underline16");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name17" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name17");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*16;}
+
+                        var elements = document.getElementsByClassName("underline17");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name18" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name18");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*17;}
+
+                        var elements = document.getElementsByClassName("underline18");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name19" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name19");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*18;}
+
+                        var elements = document.getElementsByClassName("underline19");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+
+     if (feature.properties.name == "name20" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name20");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*19;}
+
+                        var elements = document.getElementsByClassName("underline20");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+     if (feature.properties.name == "name21" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name21");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*20;}
+
+                        var elements = document.getElementsByClassName("underline21");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+     if (feature.properties.name == "name22" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name22");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*21;}
+
+                        var elements = document.getElementsByClassName("underline22");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name23" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name23");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*22;}
+
+                        var elements = document.getElementsByClassName("underline23");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name24" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name24");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*23;}
+
+                        var elements = document.getElementsByClassName("underline24");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name25" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name25");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*24;}
+
+                        var elements = document.getElementsByClassName("underline25");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name26" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name26");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*25;}
+
+                        var elements = document.getElementsByClassName("underline26");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name27" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name27");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*26;}
+
+                        var elements = document.getElementsByClassName("underline27");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name28" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name28");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*27;}
+
+                        var elements = document.getElementsByClassName("underline28");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+     if (feature.properties.name == "name29" ){
+
+                    layer.on('mouseover', function() { 
+                    var elements = document.getElementsByClassName("name29");
+                                  var topPos = 0.0301*window.innerHeight
+                                  var scrolldiv = document.getElementsByClassName('participantsbox')
+                                  for(var i = 0, length = scrolldiv.length; i < 7; i++) {
+                                  scrolldiv[i].scrollTop = topPos*28;}
+
+                        var elements = document.getElementsByClassName("underline29");
+                    for(var i = 0, length = elements.length; i < length; i++) {
+                      elements[i].style.backgroundPosition = "center center"
+                      elements[i].style.fontSize = "2.1vh"}
+                 })
+                }
+
+    }
+
+    //set up the feature iteration
+    var onEachFeature = function(feature, layer) {
+        popUpFeature(feature, layer);
+        layer.on({
+            mouseover:highlightFeature,
+            mouseout:resetHighlight
+        });
+        // layer.on("mouseover", function (feature, layer) {  console.log(feature.properties.party) });
+    }
+
+var myStyle = {
+    "color": "#ffffff",
+    "opacity": 0,
+    "fillColor": "#ffffff",
+    "fillOpacity": 0,
+};
+
+
+
+
+
+var simpleGraticule = L.simpleGraticule(options)
+var simpleGraticule_2 = L.simpleGraticule(options)
+
+//////////layer3//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    var statesLayer = L.geoJson(states, {
+        style: myStyle,
+        onEachFeature: onEachFeature,
+    })
+    var statesLayer_2 = L.geoJson(states, {
+        style: myStyle,
+        onEachFeature: onEachFeature,
+    })
+//////////layer1//////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+ var layer1 = L.tileLayer.zoomify('map-tiles09/', {width: 7424, height: 768})
+ var layer2 = L.tileLayer.zoomify('map-tiles10/', {width: 6656, height: 768})
+ var layer3 = L.tileLayer.zoomify('map-tiles11/', {width: 6912, height: 768})
+ var layer4 = L.tileLayer.zoomify('map-tiles12/', {width: 5000, height: 768})
+ var layer5 = L.tileLayer.zoomify('map-tiles13/', {width: 6400, height: 768})
+ var layer6 = L.tileLayer.zoomify('map-tiles14/', {width: 4584, height: 768})
+ var layer7 = L.tileLayer.zoomify('map-tiles15/', {width: 5000, height: 768})
+ var layer8 = L.tileLayer.zoomify('map-tiles16/', {width: 5000, height: 768})
+ var layer2_1 = L.tileLayer.zoomify('map-tiles09/', {width: 7424, height: 768})
+ var layer2_2 = L.tileLayer.zoomify('map-tiles10/', {width: 6656, height: 768})
+ var layer2_3 = L.tileLayer.zoomify('map-tiles11/', {width: 6912, height: 768})
+ var layer2_4 = L.tileLayer.zoomify('map-tiles12/', {width: 5000, height: 768})
+ var layer2_5 = L.tileLayer.zoomify('map-tiles13/', {width: 6400, height: 768})
+ var layer2_6 = L.tileLayer.zoomify('map-tiles14/', {width: 4584, height: 768})
+ var layer2_7 = L.tileLayer.zoomify('map-tiles15/', {width: 5000, height: 768})
+ var layer2_8 = L.tileLayer.zoomify('map-tiles16/', {width: 5000, height: 768})
+    
+
+    var center= [-2, 2];
+
+    var map = L.map('photo',{
+    inertia: false,
+    minZoom: 5,
+    maxZoom: 5,
+            zoom: 5,
+            center: center,
+            tolerance: 0.8,
+            zoomControl:false,
+            layers: [layer1, statesLayer, simpleGraticule],
+            crs: L.CRS.Simple
+    });
+    var map2 = L.map('photo2',{
+    inertia: false,
+    minZoom: 5,
+    maxZoom: 5,
+            tolerance: 0.8,
+            zoom: 5,
+            center: center,
+            zoomControl:false,
+            layers: [layer2_1, statesLayer_2, simpleGraticule_2],
+            crs: L.CRS.Simple
+    }); 
+var baseLayers = {
+        "Layer1": layer1,
+        "Layer2": layer2,
+        "Layer3": layer3,
+        "Layer4": layer4,
+        "Layer5": layer5,
+        "Layer6": layer6,
+        "Layer7": layer7,
+        "Layer8": layer8,
+    };
+    var baseLayers_2 = {
+        "Layer1": layer2_1,
+        "Layer2": layer2_2,
+        "Layer3": layer2_3,
+        "Layer4": layer2_4,
+        "Layer5": layer2_5,
+        "Layer6": layer2_6,
+        "Layer7": layer2_7,
+        "Layer8": layer2_8,
+    };
+    lcontrol = L.control.layers(baseLayers,{ autoZIndex: true }).addTo(map);
+    lcontrol_2 = L.control.layers(baseLayers_2,{ autoZIndex: true }).addTo(map2);
+    // baseLayers["Layer1"].addTo(map);
+    // baseLayers_2["Layer1"].addTo(map2);
+
+
+
+/////////layer2///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        map2.sync(map);
+        map.sync(map2);
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+function preclick2(callback){
+    document.getElementById("photo").style.opacity = "0";
+    document.getElementById("photo2").style.opacity = "0";
+         map.removeLayer(layer1);  
+         map.removeLayer(layer2);  
+         map.removeLayer(layer3);  
+         map.removeLayer(layer4);  
+         map.removeLayer(layer5);  
+         map.removeLayer(layer6);  
+         map.removeLayer(layer7);  
+         map.removeLayer(layer8);  
+         map2.removeLayer(layer2_1);  
+         map2.removeLayer(layer2_2);  
+         map2.removeLayer(layer2_3);  
+         map2.removeLayer(layer2_4);  
+         map2.removeLayer(layer2_5);  
+         map2.removeLayer(layer2_6);  
+         map2.removeLayer(layer2_7);  
+         map2.removeLayer(layer2_8);  
+    // map.removeLayer(layer1);
+    // map2.removeLayer(layer2);
+//     map.eachLayer(function (layer) {
+//     map.removeLayer(layer);
+// });
+//   map2.eachLayer(function (layer) {
+//     map2.removeLayer(layer);
+// });
+callback();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+function click2(){
+    statesLayer = L.geoJson(states, {
+        style: myStyle,
+        onEachFeature: onEachFeature,
+    }).addTo(map2);
+    statesLayer = L.geoJson(states, {
+        style: myStyle,
+        onEachFeature: onEachFeature,
+    }).addTo(map);
+    console.log(clicknumber)
+
+            if (window.clicknumber == 15){
+                baseLayers["Layer1"].addTo(map);
+                baseLayers_2["Layer1"].addTo(map2);
+            }
+            if (window.clicknumber == 14){
+                baseLayers["Layer2"].addTo(map);
+                baseLayers_2["Layer2"].addTo(map2);
+            }
+            if (window.clicknumber == 13){
+                baseLayers["Layer3"].addTo(map);
+                baseLayers_2["Layer3"].addTo(map2);
+            }
+            if (window.clicknumber == 12){
+                baseLayers["Layer4"].addTo(map);
+                baseLayers_2["Layer4"].addTo(map2);
+            }
+            if (window.clicknumber == 11){
+                baseLayers["Layer5"].addTo(map);
+                baseLayers_2["Layer5"].addTo(map2);
+            }
+            if (window.clicknumber == 10){
+                baseLayers["Layer6"].addTo(map);
+                baseLayers_2["Layer6"].addTo(map2);
+            }
+            if (window.clicknumber == 09){
+                baseLayers["Layer7"].addTo(map);
+                baseLayers_2["Layer7"].addTo(map2);
+            }
+            if (window.clicknumber == 08){
+                baseLayers["Layer8"].addTo(map);
+                baseLayers_2["Layer8"].addTo(map2);
+            }
+
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    </script>
+    
+    <script>
+                </script>
+
+
+</body>
+</html>

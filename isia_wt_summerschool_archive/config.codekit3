@@ -1,0 +1,8711 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "6594CC2D-53F1-4C2C-A2D6-69845AAB611A"
+		}
+	],
+"creatorBuild": "25900",
+"files": {
+	"\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/arrow2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/arrow2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/background\/gradient2_03.jpg": {
+		"ft": 16384,
+		"iS": 8487,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_07.jpg": {
+		"ft": 16384,
+		"iS": 6538,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_21.jpg": {
+		"ft": 16384,
+		"iS": 26633,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_25.jpg": {
+		"ft": 16384,
+		"iS": 13907,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_25.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_27.jpg": {
+		"ft": 16384,
+		"iS": 4679,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_27.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_31.jpg": {
+		"ft": 16384,
+		"iS": 12929,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_31.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_33.jpg": {
+		"ft": 16384,
+		"iS": 12950,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_33.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_34.jpg": {
+		"ft": 16384,
+		"iS": 17243,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_34.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/background\/gradient2_35.jpg": {
+		"ft": 16384,
+		"iS": 18267,
+		"oA": 0,
+		"oAP": "\/background\/gradient2_35.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/basic.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/basic-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/basic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/basic-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/CanvasRenderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/CanvasRenderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/cothamSans.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cothamSans.eot",
+		"oF": 0
+		},
+	"\/cothamSans.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cothamSans.ttf",
+		"oF": 0
+		},
+	"\/cothamSans.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cothamSans.woff",
+		"oF": 0
+		},
+	"\/cothamSans.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cothamSans.woff2",
+		"oF": 0
+		},
+	"\/geojson.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/geojson-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/gradient2.jpg": {
+		"ft": 16384,
+		"iS": 1371111,
+		"oA": 0,
+		"oAP": "\/gradient2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/GridLayer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/GridLayer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/images\/5-20-0.jpg": {
+		"ft": 16384,
+		"iS": 48029,
+		"oA": 0,
+		"oAP": "\/images\/5-20-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-20-1.jpg": {
+		"ft": 16384,
+		"iS": 18971,
+		"oA": 0,
+		"oAP": "\/images\/5-20-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-20-2.jpg": {
+		"ft": 16384,
+		"iS": 14105,
+		"oA": 0,
+		"oAP": "\/images\/5-20-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-21-0.jpg": {
+		"ft": 16384,
+		"iS": 10443,
+		"oA": 0,
+		"oAP": "\/images\/5-21-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-21-1.jpg": {
+		"ft": 16384,
+		"iS": 10438,
+		"oA": 0,
+		"oAP": "\/images\/5-21-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-21-2.jpg": {
+		"ft": 16384,
+		"iS": 8015,
+		"oA": 0,
+		"oAP": "\/images\/5-21-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-22-0.jpg": {
+		"ft": 16384,
+		"iS": 33440,
+		"oA": 0,
+		"oAP": "\/images\/5-22-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-22-1.jpg": {
+		"ft": 16384,
+		"iS": 32345,
+		"oA": 0,
+		"oAP": "\/images\/5-22-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-22-2.jpg": {
+		"ft": 16384,
+		"iS": 21740,
+		"oA": 0,
+		"oAP": "\/images\/5-22-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-23-0.jpg": {
+		"ft": 16384,
+		"iS": 20109,
+		"oA": 0,
+		"oAP": "\/images\/5-23-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-23-1.jpg": {
+		"ft": 16384,
+		"iS": 19281,
+		"oA": 0,
+		"oAP": "\/images\/5-23-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-23-2.jpg": {
+		"ft": 16384,
+		"iS": 15799,
+		"oA": 0,
+		"oAP": "\/images\/5-23-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-24-0.jpg": {
+		"ft": 16384,
+		"iS": 16884,
+		"oA": 0,
+		"oAP": "\/images\/5-24-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-24-1.jpg": {
+		"ft": 16384,
+		"iS": 20841,
+		"oA": 0,
+		"oAP": "\/images\/5-24-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5-24-2.jpg": {
+		"ft": 16384,
+		"iS": 14387,
+		"oA": 0,
+		"oAP": "\/images\/5-24-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/L.Graticule.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/L.Graticule-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/L.Map.Sync.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/L.Map.Sync-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/L.SimpleGraticule2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/L.SimpleGraticule2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/L.TileLayer.Zoomify.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/L.TileLayer.Zoomify-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/map-tiles09\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 23898,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 30695,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 4116,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 27147,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 36528,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 15634,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 20924,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 64329,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 61731,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 11381,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 9758,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 3484,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 31315,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 58327,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 8298,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 37248,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 32934,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 3433,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 24363,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 20086,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 2213,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 32930,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 46977,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 25863,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-16-0.jpg": {
+		"ft": 16384,
+		"iS": 30523,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-16-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-16-1.jpg": {
+		"ft": 16384,
+		"iS": 38032,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-16-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-16-2.jpg": {
+		"ft": 16384,
+		"iS": 5402,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-16-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-17-0.jpg": {
+		"ft": 16384,
+		"iS": 43149,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-17-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-17-1.jpg": {
+		"ft": 16384,
+		"iS": 47708,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-17-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-17-2.jpg": {
+		"ft": 16384,
+		"iS": 6426,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-17-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-18-0.jpg": {
+		"ft": 16384,
+		"iS": 47277,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-18-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-18-1.jpg": {
+		"ft": 16384,
+		"iS": 81127,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-18-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-18-2.jpg": {
+		"ft": 16384,
+		"iS": 40763,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-18-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-19-0.jpg": {
+		"ft": 16384,
+		"iS": 22901,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-19-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-19-1.jpg": {
+		"ft": 16384,
+		"iS": 23616,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-19-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-19-2.jpg": {
+		"ft": 16384,
+		"iS": 2941,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-19-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 24557,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 28782,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 4077,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-20-0.jpg": {
+		"ft": 16384,
+		"iS": 22512,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-20-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-20-1.jpg": {
+		"ft": 16384,
+		"iS": 33538,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-20-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-20-2.jpg": {
+		"ft": 16384,
+		"iS": 4132,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-20-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-21-0.jpg": {
+		"ft": 16384,
+		"iS": 37252,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-21-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-21-1.jpg": {
+		"ft": 16384,
+		"iS": 37594,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-21-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-21-2.jpg": {
+		"ft": 16384,
+		"iS": 32067,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-21-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-22-0.jpg": {
+		"ft": 16384,
+		"iS": 50185,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-22-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-22-1.jpg": {
+		"ft": 16384,
+		"iS": 51312,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-22-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-22-2.jpg": {
+		"ft": 16384,
+		"iS": 28342,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-22-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-23-0.jpg": {
+		"ft": 16384,
+		"iS": 29920,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-23-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-23-1.jpg": {
+		"ft": 16384,
+		"iS": 22968,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-23-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-23-2.jpg": {
+		"ft": 16384,
+		"iS": 6180,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-23-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-24-0.jpg": {
+		"ft": 16384,
+		"iS": 31588,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-24-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-24-1.jpg": {
+		"ft": 16384,
+		"iS": 17644,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-24-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-24-2.jpg": {
+		"ft": 16384,
+		"iS": 1997,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-24-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-25-0.jpg": {
+		"ft": 16384,
+		"iS": 47415,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-25-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-25-1.jpg": {
+		"ft": 16384,
+		"iS": 30860,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-25-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-25-2.jpg": {
+		"ft": 16384,
+		"iS": 4839,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-25-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-26-0.jpg": {
+		"ft": 16384,
+		"iS": 14571,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-26-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-26-1.jpg": {
+		"ft": 16384,
+		"iS": 24417,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-26-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-26-2.jpg": {
+		"ft": 16384,
+		"iS": 2326,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-26-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-27-0.jpg": {
+		"ft": 16384,
+		"iS": 13024,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-27-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-27-1.jpg": {
+		"ft": 16384,
+		"iS": 1992,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-27-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-27-2.jpg": {
+		"ft": 16384,
+		"iS": 1997,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-27-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-28-0.jpg": {
+		"ft": 16384,
+		"iS": 33415,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-28-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-28-1.jpg": {
+		"ft": 16384,
+		"iS": 42675,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-28-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-28-2.jpg": {
+		"ft": 16384,
+		"iS": 8667,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-28-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 57472,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 82939,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 48764,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 20130,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 34549,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 2986,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 50652,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 65070,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 59959,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 41401,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 48454,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 36314,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 32975,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 51686,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 43940,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 30696,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 43286,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 38364,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 32330,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 78513,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles09\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 68654,
+		"oA": 0,
+		"oAP": "\/map-tiles09\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 23685,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 33588,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 25162,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 16789,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 28087,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 19025,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 7927,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 22085,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 9748,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 12236,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 25183,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 18748,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 11505,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 37014,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 29765,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 11467,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 17729,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 20316,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 8797,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 21996,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 15287,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 6069,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 17356,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 16487,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-16-0.jpg": {
+		"ft": 16384,
+		"iS": 19916,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-16-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-16-1.jpg": {
+		"ft": 16384,
+		"iS": 42297,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-16-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-16-2.jpg": {
+		"ft": 16384,
+		"iS": 27282,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-16-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-17-0.jpg": {
+		"ft": 16384,
+		"iS": 15996,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-17-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-17-1.jpg": {
+		"ft": 16384,
+		"iS": 37958,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-17-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-17-2.jpg": {
+		"ft": 16384,
+		"iS": 41412,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-17-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-18-0.jpg": {
+		"ft": 16384,
+		"iS": 22453,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-18-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-18-1.jpg": {
+		"ft": 16384,
+		"iS": 32663,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-18-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-18-2.jpg": {
+		"ft": 16384,
+		"iS": 27252,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-18-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-19-0.jpg": {
+		"ft": 16384,
+		"iS": 5742,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-19-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-19-1.jpg": {
+		"ft": 16384,
+		"iS": 22295,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-19-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-19-2.jpg": {
+		"ft": 16384,
+		"iS": 15012,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-19-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 9740,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 44270,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 36127,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-20-0.jpg": {
+		"ft": 16384,
+		"iS": 16176,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-20-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-20-1.jpg": {
+		"ft": 16384,
+		"iS": 29891,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-20-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-20-2.jpg": {
+		"ft": 16384,
+		"iS": 16290,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-20-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-21-0.jpg": {
+		"ft": 16384,
+		"iS": 7322,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-21-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-21-1.jpg": {
+		"ft": 16384,
+		"iS": 43160,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-21-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-21-2.jpg": {
+		"ft": 16384,
+		"iS": 29364,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-21-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-22-0.jpg": {
+		"ft": 16384,
+		"iS": 17358,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-22-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-22-1.jpg": {
+		"ft": 16384,
+		"iS": 23619,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-22-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-22-2.jpg": {
+		"ft": 16384,
+		"iS": 16926,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-22-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-23-0.jpg": {
+		"ft": 16384,
+		"iS": 24050,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-23-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-23-1.jpg": {
+		"ft": 16384,
+		"iS": 44845,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-23-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-23-2.jpg": {
+		"ft": 16384,
+		"iS": 8140,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-23-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-24-0.jpg": {
+		"ft": 16384,
+		"iS": 8174,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-24-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-24-1.jpg": {
+		"ft": 16384,
+		"iS": 10449,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-24-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-24-2.jpg": {
+		"ft": 16384,
+		"iS": 11195,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-24-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-25-0.jpg": {
+		"ft": 16384,
+		"iS": 22974,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-25-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-25-1.jpg": {
+		"ft": 16384,
+		"iS": 36252,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-25-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-25-2.jpg": {
+		"ft": 16384,
+		"iS": 15728,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-25-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 11501,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 13928,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 19812,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 10278,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 27956,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 31180,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 11315,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 33026,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 8882,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 1904,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 15322,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 6253,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 7004,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 45795,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 43042,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 15165,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 6696,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 17311,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 23023,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 33027,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles10\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 26774,
+		"oA": 0,
+		"oAP": "\/map-tiles10\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 7658,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 23518,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 13291,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 3358,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 27054,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 21577,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 4262,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 18526,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 10308,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 21572,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 39550,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 15240,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 7742,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 32218,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 22616,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 8018,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 34087,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 24992,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 7694,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 8407,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 5731,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 19199,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 31468,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 23310,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-16-0.jpg": {
+		"ft": 16384,
+		"iS": 12410,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-16-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-16-1.jpg": {
+		"ft": 16384,
+		"iS": 44200,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-16-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-16-2.jpg": {
+		"ft": 16384,
+		"iS": 36878,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-16-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-17-0.jpg": {
+		"ft": 16384,
+		"iS": 9326,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-17-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-17-1.jpg": {
+		"ft": 16384,
+		"iS": 34891,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-17-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-17-2.jpg": {
+		"ft": 16384,
+		"iS": 21019,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-17-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-18-0.jpg": {
+		"ft": 16384,
+		"iS": 22365,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-18-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-18-1.jpg": {
+		"ft": 16384,
+		"iS": 26256,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-18-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-18-2.jpg": {
+		"ft": 16384,
+		"iS": 23751,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-18-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-19-0.jpg": {
+		"ft": 16384,
+		"iS": 3316,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-19-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-19-1.jpg": {
+		"ft": 16384,
+		"iS": 5301,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-19-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-19-2.jpg": {
+		"ft": 16384,
+		"iS": 17210,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-19-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 26717,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 44083,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 36541,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-20-0.jpg": {
+		"ft": 16384,
+		"iS": 6256,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-20-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-20-1.jpg": {
+		"ft": 16384,
+		"iS": 5575,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-20-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-20-2.jpg": {
+		"ft": 16384,
+		"iS": 4296,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-20-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-21-0.jpg": {
+		"ft": 16384,
+		"iS": 5136,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-21-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-21-1.jpg": {
+		"ft": 16384,
+		"iS": 15562,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-21-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-21-2.jpg": {
+		"ft": 16384,
+		"iS": 19733,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-21-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-22-0.jpg": {
+		"ft": 16384,
+		"iS": 1542,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-22-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-22-1.jpg": {
+		"ft": 16384,
+		"iS": 16611,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-22-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-22-2.jpg": {
+		"ft": 16384,
+		"iS": 17243,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-22-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-23-0.jpg": {
+		"ft": 16384,
+		"iS": 15720,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-23-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-23-1.jpg": {
+		"ft": 16384,
+		"iS": 33924,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-23-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-23-2.jpg": {
+		"ft": 16384,
+		"iS": 23744,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-23-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-24-0.jpg": {
+		"ft": 16384,
+		"iS": 20660,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-24-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-24-1.jpg": {
+		"ft": 16384,
+		"iS": 23203,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-24-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-24-2.jpg": {
+		"ft": 16384,
+		"iS": 24163,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-24-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-25-0.jpg": {
+		"ft": 16384,
+		"iS": 10642,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-25-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-25-1.jpg": {
+		"ft": 16384,
+		"iS": 15161,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-25-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-25-2.jpg": {
+		"ft": 16384,
+		"iS": 20859,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-25-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-26-0.jpg": {
+		"ft": 16384,
+		"iS": 4784,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-26-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-26-1.jpg": {
+		"ft": 16384,
+		"iS": 25253,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-26-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-26-2.jpg": {
+		"ft": 16384,
+		"iS": 25183,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-26-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 18476,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 35469,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 26849,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 12827,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 22458,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 20609,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 3242,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 11907,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 11269,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 11241,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 17937,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 3489,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 18205,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 16171,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 10879,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 11746,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 35387,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 25651,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 12268,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 30177,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles11\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 28051,
+		"oA": 0,
+		"oAP": "\/map-tiles11\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 3057,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 4326,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 11421,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 23343,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 34813,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 29572,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 5527,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 18575,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 24614,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 5917,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 9738,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 15779,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 27423,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 35134,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 40461,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 16247,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 22859,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 25852,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 3328,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 12819,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 17196,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 1461,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 16247,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 19141,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-16-0.jpg": {
+		"ft": 16384,
+		"iS": 16262,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-16-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-16-1.jpg": {
+		"ft": 16384,
+		"iS": 28449,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-16-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-16-2.jpg": {
+		"ft": 16384,
+		"iS": 21616,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-16-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-17-0.jpg": {
+		"ft": 16384,
+		"iS": 39700,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-17-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-17-1.jpg": {
+		"ft": 16384,
+		"iS": 40622,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-17-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-17-2.jpg": {
+		"ft": 16384,
+		"iS": 8467,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-17-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-18-0.jpg": {
+		"ft": 16384,
+		"iS": 16493,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-18-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-18-1.jpg": {
+		"ft": 16384,
+		"iS": 20268,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-18-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-18-2.jpg": {
+		"ft": 16384,
+		"iS": 18872,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-18-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 4686,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 18401,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 6181,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 7538,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 9055,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 6434,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 17601,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 28252,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 16602,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 1210,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 5260,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 2944,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 3117,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 21654,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 14924,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 14202,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 37001,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 2925,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 11116,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 45925,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 49264,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 1900,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 19249,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles12\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 14391,
+		"oA": 0,
+		"oAP": "\/map-tiles12\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 18509,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 33617,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 22894,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 6269,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 24845,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 23892,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 10822,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 11856,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 2826,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 9780,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 29657,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 19411,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 13762,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 42348,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 30589,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 20088,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 21786,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 23279,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 13778,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 25011,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 18217,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 13476,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 19228,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 3262,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-16-0.jpg": {
+		"ft": 16384,
+		"iS": 22010,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-16-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-16-1.jpg": {
+		"ft": 16384,
+		"iS": 49766,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-16-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-16-2.jpg": {
+		"ft": 16384,
+		"iS": 25477,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-16-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-17-0.jpg": {
+		"ft": 16384,
+		"iS": 39721,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-17-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-17-1.jpg": {
+		"ft": 16384,
+		"iS": 47005,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-17-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-17-2.jpg": {
+		"ft": 16384,
+		"iS": 28631,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-17-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-18-0.jpg": {
+		"ft": 16384,
+		"iS": 14423,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-18-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-18-1.jpg": {
+		"ft": 16384,
+		"iS": 12844,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-18-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-18-2.jpg": {
+		"ft": 16384,
+		"iS": 10711,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-18-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-19-0.jpg": {
+		"ft": 16384,
+		"iS": 34069,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-19-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-19-1.jpg": {
+		"ft": 16384,
+		"iS": 21348,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-19-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-19-2.jpg": {
+		"ft": 16384,
+		"iS": 1481,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-19-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 13201,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 25272,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 2683,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-20-0.jpg": {
+		"ft": 16384,
+		"iS": 48029,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-20-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-20-1.jpg": {
+		"ft": 16384,
+		"iS": 18971,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-20-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-20-2.jpg": {
+		"ft": 16384,
+		"iS": 14105,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-20-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-21-0.jpg": {
+		"ft": 16384,
+		"iS": 10443,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-21-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-21-1.jpg": {
+		"ft": 16384,
+		"iS": 10438,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-21-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-21-2.jpg": {
+		"ft": 16384,
+		"iS": 8015,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-21-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-22-0.jpg": {
+		"ft": 16384,
+		"iS": 33440,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-22-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-22-1.jpg": {
+		"ft": 16384,
+		"iS": 32345,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-22-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-22-2.jpg": {
+		"ft": 16384,
+		"iS": 21740,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-22-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-23-0.jpg": {
+		"ft": 16384,
+		"iS": 20109,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-23-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-23-1.jpg": {
+		"ft": 16384,
+		"iS": 19281,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-23-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-23-2.jpg": {
+		"ft": 16384,
+		"iS": 15799,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-23-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-24-0.jpg": {
+		"ft": 16384,
+		"iS": 16884,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-24-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-24-1.jpg": {
+		"ft": 16384,
+		"iS": 20841,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-24-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-24-2.jpg": {
+		"ft": 16384,
+		"iS": 14387,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-24-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 15801,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 23997,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 7375,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 8778,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 34253,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 17531,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 21553,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 52013,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 31372,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 22594,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 26851,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 12609,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 17981,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 35800,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 23469,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 24650,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 38872,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 16626,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 5632,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 10928,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles13\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 4700,
+		"oA": 0,
+		"oAP": "\/map-tiles13\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 18689,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 18431,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 11065,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 6197,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 11536,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 18019,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 20503,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 27514,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 12388,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 22807,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 39949,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 27510,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 17892,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 20731,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 17607,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 4046,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 31614,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 2542,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 13026,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 13257,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 8969,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 9634,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 10090,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 19037,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 24442,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 30447,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 21064,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 5063,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 15874,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 4977,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 25771,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 22167,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 17120,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 36358,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 49037,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 34369,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 3119,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 2099,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 16523,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 22196,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 16126,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 10721,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 29228,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 23468,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 13767,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 7568,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 24922,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles14\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 11074,
+		"oA": 0,
+		"oAP": "\/map-tiles14\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 8458,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 21479,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 11459,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 11508,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 11580,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 16080,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 6972,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 18106,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 18515,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 7658,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 2108,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 2478,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 5744,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 5556,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 1027,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 17465,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 21540,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 20452,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 2183,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 18292,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 23590,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 1125,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 23037,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 26735,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 4932,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 7991,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 18966,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 4364,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 23315,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 11946,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 9350,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 32585,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles15\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 18600,
+		"oA": 0,
+		"oAP": "\/map-tiles15\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-0-0.jpg": {
+		"ft": 16384,
+		"iS": 17744,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-0-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-0-1.jpg": {
+		"ft": 16384,
+		"iS": 8733,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-0-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-0-2.jpg": {
+		"ft": 16384,
+		"iS": 24767,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-0-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-1-0.jpg": {
+		"ft": 16384,
+		"iS": 6796,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-1-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-1-1.jpg": {
+		"ft": 16384,
+		"iS": 17491,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-1-2.jpg": {
+		"ft": 16384,
+		"iS": 23288,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-10-0.jpg": {
+		"ft": 16384,
+		"iS": 11037,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-10-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-10-1.jpg": {
+		"ft": 16384,
+		"iS": 31165,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-10-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-10-2.jpg": {
+		"ft": 16384,
+		"iS": 35070,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-10-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-11-0.jpg": {
+		"ft": 16384,
+		"iS": 15940,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-11-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-11-1.jpg": {
+		"ft": 16384,
+		"iS": 57794,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-11-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-11-2.jpg": {
+		"ft": 16384,
+		"iS": 33497,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-11-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-12-0.jpg": {
+		"ft": 16384,
+		"iS": 34535,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-12-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-12-1.jpg": {
+		"ft": 16384,
+		"iS": 65078,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-12-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-12-2.jpg": {
+		"ft": 16384,
+		"iS": 51108,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-12-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-13-0.jpg": {
+		"ft": 16384,
+		"iS": 2224,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-13-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-13-1.jpg": {
+		"ft": 16384,
+		"iS": 6359,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-13-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-13-2.jpg": {
+		"ft": 16384,
+		"iS": 12155,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-13-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-14-0.jpg": {
+		"ft": 16384,
+		"iS": 7071,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-14-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-14-1.jpg": {
+		"ft": 16384,
+		"iS": 21747,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-14-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-14-2.jpg": {
+		"ft": 16384,
+		"iS": 23282,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-14-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-15-0.jpg": {
+		"ft": 16384,
+		"iS": 24233,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-15-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-15-1.jpg": {
+		"ft": 16384,
+		"iS": 30044,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-15-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-15-2.jpg": {
+		"ft": 16384,
+		"iS": 7388,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-15-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-16-0.jpg": {
+		"ft": 16384,
+		"iS": 12796,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-16-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-16-1.jpg": {
+		"ft": 16384,
+		"iS": 5805,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-16-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-16-2.jpg": {
+		"ft": 16384,
+		"iS": 10996,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-16-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-2-0.jpg": {
+		"ft": 16384,
+		"iS": 10814,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-2-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-2-1.jpg": {
+		"ft": 16384,
+		"iS": 10578,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-2-2.jpg": {
+		"ft": 16384,
+		"iS": 12911,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-3-0.jpg": {
+		"ft": 16384,
+		"iS": 8375,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-3-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-3-1.jpg": {
+		"ft": 16384,
+		"iS": 26300,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-3-2.jpg": {
+		"ft": 16384,
+		"iS": 13670,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-3-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-4-0.jpg": {
+		"ft": 16384,
+		"iS": 15336,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-4-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-4-1.jpg": {
+		"ft": 16384,
+		"iS": 37043,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-4-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-4-2.jpg": {
+		"ft": 16384,
+		"iS": 27784,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-4-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-5-0.jpg": {
+		"ft": 16384,
+		"iS": 19656,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-5-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-5-1.jpg": {
+		"ft": 16384,
+		"iS": 21075,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-5-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-5-2.jpg": {
+		"ft": 16384,
+		"iS": 11266,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-5-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-6-0.jpg": {
+		"ft": 16384,
+		"iS": 4655,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-6-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-6-1.jpg": {
+		"ft": 16384,
+		"iS": 9864,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-6-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-6-2.jpg": {
+		"ft": 16384,
+		"iS": 6961,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-6-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-7-0.jpg": {
+		"ft": 16384,
+		"iS": 7832,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-7-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-7-1.jpg": {
+		"ft": 16384,
+		"iS": 12977,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-7-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-7-2.jpg": {
+		"ft": 16384,
+		"iS": 22464,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-7-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-8-0.jpg": {
+		"ft": 16384,
+		"iS": 11443,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-8-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-8-1.jpg": {
+		"ft": 16384,
+		"iS": 24620,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-8-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-8-2.jpg": {
+		"ft": 16384,
+		"iS": 6664,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-8-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-9-0.jpg": {
+		"ft": 16384,
+		"iS": 22620,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-9-0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-9-1.jpg": {
+		"ft": 16384,
+		"iS": 31872,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-9-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/map-tiles16\/TileGroup0\/5-9-2.jpg": {
+		"ft": 16384,
+		"iS": 13944,
+		"oA": 0,
+		"oAP": "\/map-tiles16\/TileGroup0\/5-9-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/OrthographicCamera.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/OrthographicCamera-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/photo.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/photo-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/photo.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/photo.css.map",
+		"oF": 0
+		},
+	"\/photo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/photo.html",
+		"oF": 0
+		},
+	"\/photo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/photo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/photo.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/photo.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/photos\/001.jpg": {
+		"ft": 16384,
+		"iS": 141197,
+		"oA": 0,
+		"oAP": "\/photos\/001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/002.jpg": {
+		"ft": 16384,
+		"iS": 237691,
+		"oA": 0,
+		"oAP": "\/photos\/002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/003.jpg": {
+		"ft": 16384,
+		"iS": 78261,
+		"oA": 0,
+		"oAP": "\/photos\/003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/004.jpg": {
+		"ft": 16384,
+		"iS": 201407,
+		"oA": 0,
+		"oAP": "\/photos\/004.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/005.jpg": {
+		"ft": 16384,
+		"iS": 228335,
+		"oA": 0,
+		"oAP": "\/photos\/005.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/006.jpg": {
+		"ft": 16384,
+		"iS": 97932,
+		"oA": 0,
+		"oAP": "\/photos\/006.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/008.jpg": {
+		"ft": 16384,
+		"iS": 107118,
+		"oA": 0,
+		"oAP": "\/photos\/008.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/009.jpg": {
+		"ft": 16384,
+		"iS": 137546,
+		"oA": 0,
+		"oAP": "\/photos\/009.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/010.jpg": {
+		"ft": 16384,
+		"iS": 209973,
+		"oA": 0,
+		"oAP": "\/photos\/010.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/011.jpg": {
+		"ft": 16384,
+		"iS": 120836,
+		"oA": 0,
+		"oAP": "\/photos\/011.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/012.jpg": {
+		"ft": 16384,
+		"iS": 56478,
+		"oA": 0,
+		"oAP": "\/photos\/012.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/013.jpg": {
+		"ft": 16384,
+		"iS": 81308,
+		"oA": 0,
+		"oAP": "\/photos\/013.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/014.jpg": {
+		"ft": 16384,
+		"iS": 161434,
+		"oA": 0,
+		"oAP": "\/photos\/014.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/015.jpg": {
+		"ft": 16384,
+		"iS": 160854,
+		"oA": 0,
+		"oAP": "\/photos\/015.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/016.jpg": {
+		"ft": 16384,
+		"iS": 96676,
+		"oA": 0,
+		"oAP": "\/photos\/016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/017.jpg": {
+		"ft": 16384,
+		"iS": 128350,
+		"oA": 0,
+		"oAP": "\/photos\/017.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/021.jpg": {
+		"ft": 16384,
+		"iS": 214217,
+		"oA": 0,
+		"oAP": "\/photos\/021.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/022.jpg": {
+		"ft": 16384,
+		"iS": 153269,
+		"oA": 0,
+		"oAP": "\/photos\/022.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/023.jpg": {
+		"ft": 16384,
+		"iS": 169854,
+		"oA": 0,
+		"oAP": "\/photos\/023.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/024.jpg": {
+		"ft": 16384,
+		"iS": 154884,
+		"oA": 0,
+		"oAP": "\/photos\/024.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/025.jpg": {
+		"ft": 16384,
+		"iS": 141400,
+		"oA": 0,
+		"oAP": "\/photos\/025.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/026.jpg": {
+		"ft": 16384,
+		"iS": 93817,
+		"oA": 0,
+		"oAP": "\/photos\/026.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/027.jpg": {
+		"ft": 16384,
+		"iS": 93429,
+		"oA": 0,
+		"oAP": "\/photos\/027.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/029.jpg": {
+		"ft": 16384,
+		"iS": 107852,
+		"oA": 0,
+		"oAP": "\/photos\/029.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/030.jpg": {
+		"ft": 16384,
+		"iS": 66192,
+		"oA": 0,
+		"oAP": "\/photos\/030.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/031.jpg": {
+		"ft": 16384,
+		"iS": 197460,
+		"oA": 0,
+		"oAP": "\/photos\/031.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/032.jpg": {
+		"ft": 16384,
+		"iS": 163587,
+		"oA": 0,
+		"oAP": "\/photos\/032.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/033.jpg": {
+		"ft": 16384,
+		"iS": 177188,
+		"oA": 0,
+		"oAP": "\/photos\/033.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/034.jpg": {
+		"ft": 16384,
+		"iS": 170534,
+		"oA": 0,
+		"oAP": "\/photos\/034.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/035.jpg": {
+		"ft": 16384,
+		"iS": 78448,
+		"oA": 0,
+		"oAP": "\/photos\/035.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/036.jpg": {
+		"ft": 16384,
+		"iS": 195309,
+		"oA": 0,
+		"oAP": "\/photos\/036.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/039.jpg": {
+		"ft": 16384,
+		"iS": 232863,
+		"oA": 0,
+		"oAP": "\/photos\/039.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/040.jpg": {
+		"ft": 16384,
+		"iS": 124703,
+		"oA": 0,
+		"oAP": "\/photos\/040.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/041.jpg": {
+		"ft": 16384,
+		"iS": 168101,
+		"oA": 0,
+		"oAP": "\/photos\/041.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/042.jpg": {
+		"ft": 16384,
+		"iS": 138524,
+		"oA": 0,
+		"oAP": "\/photos\/042.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/043.jpg": {
+		"ft": 16384,
+		"iS": 240801,
+		"oA": 0,
+		"oAP": "\/photos\/043.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/044.jpg": {
+		"ft": 16384,
+		"iS": 100045,
+		"oA": 0,
+		"oAP": "\/photos\/044.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/045.jpg": {
+		"ft": 16384,
+		"iS": 114689,
+		"oA": 0,
+		"oAP": "\/photos\/045.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/046.jpg": {
+		"ft": 16384,
+		"iS": 232686,
+		"oA": 0,
+		"oAP": "\/photos\/046.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/047.jpg": {
+		"ft": 16384,
+		"iS": 128100,
+		"oA": 0,
+		"oAP": "\/photos\/047.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/048.jpg": {
+		"ft": 16384,
+		"iS": 347903,
+		"oA": 0,
+		"oAP": "\/photos\/048.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/056.jpg": {
+		"ft": 16384,
+		"iS": 149947,
+		"oA": 0,
+		"oAP": "\/photos\/056.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/057.jpg": {
+		"ft": 16384,
+		"iS": 177615,
+		"oA": 0,
+		"oAP": "\/photos\/057.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/058.jpg": {
+		"ft": 16384,
+		"iS": 167878,
+		"oA": 0,
+		"oAP": "\/photos\/058.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/059.jpg": {
+		"ft": 16384,
+		"iS": 133343,
+		"oA": 0,
+		"oAP": "\/photos\/059.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/060.jpg": {
+		"ft": 16384,
+		"iS": 134532,
+		"oA": 0,
+		"oAP": "\/photos\/060.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/061.jpg": {
+		"ft": 16384,
+		"iS": 154542,
+		"oA": 0,
+		"oAP": "\/photos\/061.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/062.jpg": {
+		"ft": 16384,
+		"iS": 190924,
+		"oA": 0,
+		"oAP": "\/photos\/062.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/063.jpg": {
+		"ft": 16384,
+		"iS": 132019,
+		"oA": 0,
+		"oAP": "\/photos\/063.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/064.jpg": {
+		"ft": 16384,
+		"iS": 200253,
+		"oA": 0,
+		"oAP": "\/photos\/064.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/065.jpg": {
+		"ft": 16384,
+		"iS": 263771,
+		"oA": 0,
+		"oAP": "\/photos\/065.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/067.jpg": {
+		"ft": 16384,
+		"iS": 88051,
+		"oA": 0,
+		"oAP": "\/photos\/067.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/069.jpg": {
+		"ft": 16384,
+		"iS": 236095,
+		"oA": 0,
+		"oAP": "\/photos\/069.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/070.jpg": {
+		"ft": 16384,
+		"iS": 243473,
+		"oA": 0,
+		"oAP": "\/photos\/070.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/071.jpg": {
+		"ft": 16384,
+		"iS": 174236,
+		"oA": 0,
+		"oAP": "\/photos\/071.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/072.jpg": {
+		"ft": 16384,
+		"iS": 178293,
+		"oA": 0,
+		"oAP": "\/photos\/072.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/074.jpg": {
+		"ft": 16384,
+		"iS": 108048,
+		"oA": 0,
+		"oAP": "\/photos\/074.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/075.jpg": {
+		"ft": 16384,
+		"iS": 77224,
+		"oA": 0,
+		"oAP": "\/photos\/075.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/077.jpg": {
+		"ft": 16384,
+		"iS": 157934,
+		"oA": 0,
+		"oAP": "\/photos\/077.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/078.jpg": {
+		"ft": 16384,
+		"iS": 110693,
+		"oA": 0,
+		"oAP": "\/photos\/078.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/079.jpg": {
+		"ft": 16384,
+		"iS": 100825,
+		"oA": 0,
+		"oAP": "\/photos\/079.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/080.jpg": {
+		"ft": 16384,
+		"iS": 228841,
+		"oA": 0,
+		"oAP": "\/photos\/080.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/081.jpg": {
+		"ft": 16384,
+		"iS": 176423,
+		"oA": 0,
+		"oAP": "\/photos\/081.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/082.jpg": {
+		"ft": 16384,
+		"iS": 53851,
+		"oA": 0,
+		"oAP": "\/photos\/082.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/083.jpg": {
+		"ft": 16384,
+		"iS": 128484,
+		"oA": 0,
+		"oAP": "\/photos\/083.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/084.jpg": {
+		"ft": 16384,
+		"iS": 231293,
+		"oA": 0,
+		"oAP": "\/photos\/084.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/085.jpg": {
+		"ft": 16384,
+		"iS": 371180,
+		"oA": 0,
+		"oAP": "\/photos\/085.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/086.jpg": {
+		"ft": 16384,
+		"iS": 198270,
+		"oA": 0,
+		"oAP": "\/photos\/086.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/087.jpg": {
+		"ft": 16384,
+		"iS": 303233,
+		"oA": 0,
+		"oAP": "\/photos\/087.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/088.jpg": {
+		"ft": 16384,
+		"iS": 134901,
+		"oA": 0,
+		"oAP": "\/photos\/088.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/089.jpg": {
+		"ft": 16384,
+		"iS": 184377,
+		"oA": 0,
+		"oAP": "\/photos\/089.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/090.jpg": {
+		"ft": 16384,
+		"iS": 238414,
+		"oA": 0,
+		"oAP": "\/photos\/090.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/091.jpg": {
+		"ft": 16384,
+		"iS": 117957,
+		"oA": 0,
+		"oAP": "\/photos\/091.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/092.jpg": {
+		"ft": 16384,
+		"iS": 321485,
+		"oA": 0,
+		"oAP": "\/photos\/092.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/093.jpg": {
+		"ft": 16384,
+		"iS": 191989,
+		"oA": 0,
+		"oAP": "\/photos\/093.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/094.jpg": {
+		"ft": 16384,
+		"iS": 294944,
+		"oA": 0,
+		"oAP": "\/photos\/094.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/095.jpg": {
+		"ft": 16384,
+		"iS": 230133,
+		"oA": 0,
+		"oAP": "\/photos\/095.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/096.jpg": {
+		"ft": 16384,
+		"iS": 229629,
+		"oA": 0,
+		"oAP": "\/photos\/096.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/097.jpg": {
+		"ft": 16384,
+		"iS": 143408,
+		"oA": 0,
+		"oAP": "\/photos\/097.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/099.jpg": {
+		"ft": 16384,
+		"iS": 204772,
+		"oA": 0,
+		"oAP": "\/photos\/099.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/100.jpg": {
+		"ft": 16384,
+		"iS": 133814,
+		"oA": 0,
+		"oAP": "\/photos\/100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/101.jpg": {
+		"ft": 16384,
+		"iS": 183141,
+		"oA": 0,
+		"oAP": "\/photos\/101.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/102.jpg": {
+		"ft": 16384,
+		"iS": 75752,
+		"oA": 0,
+		"oAP": "\/photos\/102.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/103.jpg": {
+		"ft": 16384,
+		"iS": 104727,
+		"oA": 0,
+		"oAP": "\/photos\/103.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/104.jpg": {
+		"ft": 16384,
+		"iS": 199571,
+		"oA": 0,
+		"oAP": "\/photos\/104.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/105.jpg": {
+		"ft": 16384,
+		"iS": 102490,
+		"oA": 0,
+		"oAP": "\/photos\/105.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/106.jpg": {
+		"ft": 16384,
+		"iS": 83807,
+		"oA": 0,
+		"oAP": "\/photos\/106.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/107.jpg": {
+		"ft": 16384,
+		"iS": 109228,
+		"oA": 0,
+		"oAP": "\/photos\/107.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/108.jpg": {
+		"ft": 16384,
+		"iS": 92772,
+		"oA": 0,
+		"oAP": "\/photos\/108.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/109.jpg": {
+		"ft": 16384,
+		"iS": 97058,
+		"oA": 0,
+		"oAP": "\/photos\/109.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/110.jpg": {
+		"ft": 16384,
+		"iS": 96126,
+		"oA": 0,
+		"oAP": "\/photos\/110.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/112.jpg": {
+		"ft": 16384,
+		"iS": 92861,
+		"oA": 0,
+		"oAP": "\/photos\/112.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/113.jpg": {
+		"ft": 16384,
+		"iS": 176909,
+		"oA": 0,
+		"oAP": "\/photos\/113.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/115.jpg": {
+		"ft": 16384,
+		"iS": 108335,
+		"oA": 0,
+		"oAP": "\/photos\/115.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/photos\/black-01.png": {
+		"ft": 32768,
+		"iS": 266,
+		"oA": 0,
+		"oAP": "\/photos\/black-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Projector.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Projector-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/slash.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/slash.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/three.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/three-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/untitled.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/untitled.html",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 534319052,
+	"displayValue": "summerschoolweb171202",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_brown"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
